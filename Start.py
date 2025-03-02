@@ -60,7 +60,7 @@ def Signup():
         st.session_state.signup_input_error = [0,0,0,0,0,0,0,0,0]
     
     with st.form("userInput"):
-        st.session_state.name = st.text_input("What should we call you?", st.session_state.name)
+        st.session_state.name = st.text_input("What should we call you? (optional)", st.session_state.name)
         # 0
         st.session_state.user_input[0] = st.number_input(signup_input_labels[0], 0, step=1, value=st.session_state.user_input[0])
         if (st.session_state.signup_input_error[0]):
