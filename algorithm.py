@@ -10,10 +10,12 @@ EXPERIENCE_CATEGORIES = {
 def calculate_risk_level(volatility, beta, drawdown):
     # Assign weights to each factor to calculate risk
     volatility_weight = 0.6
-    beta_weight = 0.2
-    drawdown_weight = 0.2
-    beta = 1 - beta
-    print(volatility * volatility_weight, beta * beta_weight, abs(drawdown) * drawdown_weight)
+    beta_weight = 0.05
+    drawdown_weight = 0.35
+    if (beta == None):
+        beta = 0
+    else:
+        beta = 1 - beta
     # Risk score calculation (higher volatility, higher beta, and more negative drawdown increase risk)
     risk_score = ((volatility * volatility_weight) + (beta * beta_weight) + (abs(drawdown) * drawdown_weight))
     
@@ -43,6 +45,9 @@ def match_investors(user, opportunities):
         if level == user_level:
             break
     for investment in opportunities:
+        if user_level == "beginner":
+            if investment.asset_type == "Stock":
+                continue
         if (investment.category not in allowed_categories):
         # and (investment.asset_type not in allowed_categories):
             continue
@@ -57,7 +62,6 @@ def match_investors(user, opportunities):
         score = calculate_compatability(user, investment.risk_score, investment.drawdown, investment.min_investment)
         if score <= 0:
             continue
-        print(investment.name, investment.risk_score)
         investments += [(score, investment)]
     investments = [(score, investment) for score, investment in investments if not math.isnan(score)]
     investments.sort(key=lambda x: x[0], reverse=True)
