@@ -48,6 +48,9 @@ def match_investors(user, opportunities):
             continue
         if investment.min_investment > user.savings * user.commitment:
             continue
+        # test
+        if investment.asset_type == 'Stock':
+            continue
         if investment.beta < 0:
             continue
         investment.risk_score = calculate_risk_level(investment.volatility, investment.beta, investment.drawdown)

@@ -11,11 +11,14 @@ import streamlit as st
 
 st.session_state.stocks = []
 # test
-st.session_state.predictions = [[1234, -12], [12, 4356], [-2344, 344]]
+st.session_state.predictions = []
 
 from Start import Setup, DataValidation
 from algorithm import match_investors
 from database import User, Investment, get_investments_from_csv
+from trainedml_crypto import crypto_model
+from trainedml_etf import etf_model
+from trainedml_stocks import stock_model
 
 Setup()
 
@@ -28,28 +31,42 @@ def GetStocks():
         st.session_state.opportunities = get_investments_from_csv()
     st.session_state.stocks = match_investors(user, st.session_state.opportunities)
 
-def SetStockPrediction(rank, ticker):
-    st.session_state.predictions[rank] = rachanaFunc(ticker) # list of 3,6,9,12,15,18,21 month prediction based on the ticker
+def SetStockPrediction(rank, ticker, type):
+    if (type == "ETF"):
+        st.session_state.predictions[rank] = etf_model(ticker) # list of 3,6,9,12,15,18,21 month prediction based on the ticker
+    else:
+        st.session_state.predictions[rank] = crypto_model(ticker) # list of 3,6,9,12,15,18,21 month prediction based on the ticker
 
 def ShowStock(rank):
     # make cute display of cards
     # collapsable details to reduce reloading
-    st.header("Stock #" + str(rank+1) + ": " + st.session_state.stocks[rank][1].name)
-    st.subheader("Predictions")
-    col1, col2 = st.columns(2, border=True)
-    # most recent prediction
-    mstRecent = ""
-    if (st.session_state.predictions[rank][0] < 0):
-        mstRecent = "-"
-    mstRecent += "$" + str(abs(st.session_state.predictions[rank][0]))
-    col1.metric("3 months", mstRecent)
-    # second most recent prediction
-    mst2Recent = ""
-    if (st.session_state.predictions[rank][1] < 0):
-        mst2Recent = "-"
-    mst2Recent += "$" + str(abs(st.session_state.predictions[rank][1]))
-    col2.metric("6 months", mst2Recent, str((st.session_state.predictions[rank][1]-st.session_state.predictions[rank][0])/abs(st.session_state.predictions[rank][0])*100)+"%")
-    st.write(st.session_state.stocks[rank][1])
+    st.header("Investment #" + str(rank+1) + ": " + st.session_state.stocks[rank][1].name)
+    # if crypto, etf
+    if st.session_state.stocks[rank][1].asset_type == "ETF" or st.session_state.stocks[rank][1].asset_type == "Crypto":
+        if ('predictions' not in st.session_state):
+            SetStockPrediction(rank, st.session_state.stocks[rank][1].ticker, st.session_state.stocks[rank][1].asset_type)
+        st.subheader("Predictions")
+        col1, col2 = st.columns(2, border=True)
+        # most recent prediction
+        mstRecent = ""
+        if (st.session_state.predictions[rank][0] < 0):
+            mstRecent = "-"
+        mstRecent += "$" + str(abs(st.session_state.predictions[rank][0]))
+        col1.metric("3 months", mstRecent)
+        # second most recent prediction
+        mst2Recent = ""
+        if (st.session_state.predictions[rank][1] < 0):
+            mst2Recent = "-"
+        mst2Recent += "$" + str(abs(st.session_state.predictions[rank][1]))
+        col2.metric("6 months", mst2Recent, str((st.session_state.predictions[rank][1]-st.session_state.predictions[rank][0])/abs(st.session_state.predictions[rank][0])*100)+"%")
+    
+    # if stock, show description
+    if st.session_state.stocks[rank][1].asset_type == "Stock":
+        with st.expander("Stock Description"):
+            st.write(stock_model(st.session_state.stocks[rank][1].ticker))
+
+    with st.expander("Further information"):
+        st.write(st.session_state.stocks[rank][1])
 
 def PrintUser():
     # income, savings, ratio, duration, commitment, target, appetite, max_drawdown, skill_level
