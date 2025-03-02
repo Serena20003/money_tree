@@ -40,7 +40,7 @@ def main_inputs():
 def print_investors(investors):
     print()
     for i in investors:
-        print(i[1].name, i[1].category, i[1].asset_type)
+        print(i[1].name)
 
 
 def main():
