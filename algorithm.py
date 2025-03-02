@@ -28,7 +28,6 @@ def calculate_compatability(user, investment_risk_score, investment_drawdown, mi
         risk_compatibility = 0
     else:
         risk_compatibility = max(0, ((investment_risk_score*100) / user.appetite if user.appetite != 0 else 0))
-    print(investment_risk_score*100, user.appetite, risk_compatibility)
     if min_investment:
         investment_compatibility = max(0, 1 - (min_investment / user.savings))
         compatibility_score = (0.3*drawdown_compatibility + 0.3*risk_compatibility + 0.4*investment_compatibility)
@@ -45,7 +44,6 @@ def match_investors(user, opportunities):
         allowed_categories.update(EXPERIENCE_CATEGORIES[level])
         if level == user_level:  # Stop when we reach the user's level
             break
-    print(allowed_categories)
     for investment in opportunities:
         if (investment.category not in allowed_categories) and (investment.asset_type not in allowed_categories):
             continue
