@@ -12,12 +12,10 @@ def calculate_risk_level(volatility, beta, drawdown):
     volatility_weight = 0.6
     beta_weight = 0.2
     drawdown_weight = 0.2
-    if beta > 0:
-        beta = -min(abs(beta), 100)
-    else:
-        beta = min(abs(beta), 100)
+    beta = 1 - beta
+    print(volatility * volatility_weight, beta * beta_weight, abs(drawdown) * drawdown_weight)
     # Risk score calculation (higher volatility, higher beta, and more negative drawdown increase risk)
-    risk_score = (volatility * volatility_weight) + (beta * beta_weight) + (abs(drawdown) * drawdown_weight)
+    risk_score = ((volatility * volatility_weight) + (beta * beta_weight) + (abs(drawdown) * drawdown_weight))
     
     return risk_score
 
@@ -45,14 +43,18 @@ def match_investors(user, opportunities):
         if level == user_level:
             break
     for investment in opportunities:
-        if (investment.category not in allowed_categories) and (investment.asset_type not in allowed_categories):
+        if (investment.category not in allowed_categories):
+        # and (investment.asset_type not in allowed_categories):
             continue
         if investment.min_investment > user.savings * user.commitment:
             continue
+        if investment.beta < 0:
+            continue
         investment.risk_score = calculate_risk_level(investment.volatility, investment.beta, investment.drawdown)
         score = calculate_compatability(user, investment.risk_score, investment.drawdown, investment.min_investment)
-        if score < 0:
+        if score <= 0:
             continue
+        print(investment.name, investment.risk_score)
         investments += [(score, investment)]
     investments = [(score, investment) for score, investment in investments if not math.isnan(score)]
     investments.sort(key=lambda x: x[0], reverse=True)

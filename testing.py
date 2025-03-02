@@ -5,27 +5,27 @@ import database
 class TestCalculateRiskLevel(unittest.TestCase):
     def test_calculate_risk_level_base(self):
         low_risk = algorithm.calculate_risk_level(10, 2, -10)
-        high_risk = algorithm.calculate_risk_level(50, -1, -50)
+        high_risk = algorithm.calculate_risk_level(50, 1, -50)
         self.assertGreater(high_risk, low_risk)
     def test_calculate_risk_level_beta1(self):
-        low_risk = algorithm.calculate_risk_level(10, 1, -10)
-        high_risk = algorithm.calculate_risk_level(10, -2, -10)
+        low_risk = algorithm.calculate_risk_level(10, 2, -10)
+        high_risk = algorithm.calculate_risk_level(10, 1, -10)
         self.assertGreater(high_risk, low_risk)
     def test_calculate_risk_level_beta2(self):
         low_risk = algorithm.calculate_risk_level(10, 1, -10)
-        high_risk = algorithm.calculate_risk_level(10, -1, -10)
+        high_risk = algorithm.calculate_risk_level(10, 0, -10)
         self.assertGreater(high_risk, low_risk)
     def test_calculate_risk_level_beta3(self):
-        low_risk = algorithm.calculate_risk_level(10, 0, -10)
-        high_risk = algorithm.calculate_risk_level(10, -2, -10)
+        low_risk = algorithm.calculate_risk_level(10, 2, -10)
+        high_risk = algorithm.calculate_risk_level(10, 0, -10)
         self.assertGreater(high_risk, low_risk)
     def test_calculate_risk_level_appetite1(self):
         low_risk = algorithm.calculate_risk_level(10, 1, -10)
         high_risk = algorithm.calculate_risk_level(11, 1, -10)
         self.assertGreater(high_risk, low_risk)
     def test_calculate_risk_level_appetite2(self):
-        low_risk = algorithm.calculate_risk_level(5, -1, -10)
-        high_risk = algorithm.calculate_risk_level(100, -2, -10)
+        low_risk = algorithm.calculate_risk_level(5, 1, -10)
+        high_risk = algorithm.calculate_risk_level(100, 2, -10)
         self.assertGreater(high_risk, low_risk)
 
 class TestCompatability(unittest.TestCase):
@@ -83,7 +83,7 @@ class TestCompatability(unittest.TestCase):
         risk_score1 = algorithm.calculate_risk_level(volatility, beta, drawdown)
         score1 = algorithm.calculate_compatability(user, risk_score1, drawdown, min_investment)
 
-        volatility = 0.3202341964673404
+        volatility = 0.0902341964673404
         beta = 1.003
         drawdown = -0.10535004728381722
         min_investment = 0
