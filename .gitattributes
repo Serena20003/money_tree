@@ -1,0 +1,2 @@
+etf_technical_indicators.csv filter=lfs diff=lfs merge=lfs -text
+.csv filter=lfs diff=lfs merge=lfs -text
