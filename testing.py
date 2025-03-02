@@ -38,9 +38,8 @@ class TestCompatability(unittest.TestCase):
         target = 0.7
         appetite = 50
         max_drawdown = 50
-        asset_type = 0
         skill_level = "intermediate"
-        information = [income, savings, ratio, duration, commitment, target, appetite, max_drawdown, asset_type, skill_level]
+        information = [income, savings, ratio, duration, commitment, target, appetite, max_drawdown, skill_level]
         user = database.User()
         user.parse_information_tester(information)
 
@@ -71,9 +70,8 @@ class TestCompatability(unittest.TestCase):
         target = 0.7
         appetite = 10
         max_drawdown = 10
-        asset_type = 0
         skill_level = "intermediate"
-        information = [income, savings, ratio, duration, commitment, target, appetite, max_drawdown, asset_type, skill_level]
+        information = [income, savings, ratio, duration, commitment, target, appetite, max_drawdown, skill_level]
         user = database.User()
         user.parse_information_tester(information)
 
@@ -104,9 +102,8 @@ class TestCompatability(unittest.TestCase):
         target = 0.7
         appetite = 100
         max_drawdown = 50
-        asset_type = 0
         skill_level = "intermediate"
-        information = [income, savings, ratio, duration, commitment, target, appetite, max_drawdown, asset_type, skill_level]
+        information = [income, savings, ratio, duration, commitment, target, appetite, max_drawdown, skill_level]
         user = database.User()
         user.parse_information_tester(information)
 

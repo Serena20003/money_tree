@@ -10,9 +10,8 @@ def get_user():
     target = 0.7
     appetite = input("Risk Appetite: ")
     max_drawdown = input("Max Drawdown Comfort Level: ")
-    asset_type = 0
     skill_level = "beginner"
-    information = [income, savings, ratio, duration, commitment, target, appetite, max_drawdown, asset_type, skill_level]
+    information = [income, savings, ratio, duration, commitment, target, appetite, max_drawdown, skill_level]
     user = database.User()
     user.parse_information_tester(information)
     return user

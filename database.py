@@ -26,7 +26,7 @@ class User:
         self.target = int(information[5])
         self.appetite = int(information[6])
         self.max_drawdown = float(information[7])
-        self.skill_level = information[9]
+        self.skill_level = information[8]
 
 class Investment:
     def __init__(self, row):

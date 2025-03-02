@@ -42,7 +42,7 @@ def match_investors(user, opportunities):
     allowed_categories = set()
     for level in experience_levels:
         allowed_categories.update(EXPERIENCE_CATEGORIES[level])
-        if level == user_level:  # Stop when we reach the user's level
+        if level == user_level:
             break
     for investment in opportunities:
         if (investment.category not in allowed_categories) and (investment.asset_type not in allowed_categories):
