@@ -2,6 +2,8 @@
 
 Project deployed on: https://moneytree-athenahacks25.streamlit.app/
 
+# About
+
 # Set up environment and run app on localhost
 
 - using `python` command in the instrcutions below
@@ -11,6 +13,9 @@ Project deployed on: https://moneytree-athenahacks25.streamlit.app/
    a. Type `python -m venv .venv` in the terminal (This will create a ".venv" directory where your virtual environment and its dependencies are installed.)
    b. Activate environment by typing `source .venv/bin/activate` in terminal (MacOS)
    c. Install steamlit by typing `pip install streamlit` in the environment (you should see `.venv➜ ` at the start of the line before installing)
-3. Type `streamlit run Home.py` to run the main page of the app!
-4. Download MongoDB driver - PyMongo - with `python -m pip install "pymongo[srv]"==3.12` to talk with MongoDB database
-5. Install Python certificate using `/Applications/Python\ 3.13/Install\ Certificates.command`
+3. Type `streamlit run Start.py` to run the main page of the app!
+
+# MongoDB (future)
+
+1. Download MongoDB driver - PyMongo - with `python -m pip install "pymongo[srv]"==3.12` to talk with MongoDB database
+2. Install Python certificate using `/Applications/Python\ 3.13/Install\ Certificates.command`
