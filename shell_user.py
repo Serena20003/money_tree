@@ -6,7 +6,7 @@ def get_user():
     savings = input("Savings: ")
     ratio = 0.113
     duration = 1
-    commitment = 3000
+    commitment = 30
     target = 0.7
     appetite = input("Risk Appetite: ")
     max_drawdown = input("Max Drawdown Comfort Level: ")
@@ -40,7 +40,7 @@ def main_inputs():
 def print_investors(investors):
     print()
     for i in investors:
-        print(i[1].name)
+        print(i[1].name, i[1].asset_type)
 
 
 def main():
