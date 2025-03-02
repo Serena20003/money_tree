@@ -6,7 +6,7 @@ class User:
         self.income = int
         self.savings = int
         self.ratio = int
-        self.duration = int
+        self.duration = str
         self.commitment = int
         self.target = int
         self.appetite = int
@@ -21,7 +21,7 @@ class User:
         self.income = int(information[0])
         self.savings = int(information[1])
         self.ratio = int(information[2])
-        self.duration = int(information[3])
+        self.duration = information[3]
         self.commitment = int(information[4])
         self.target = int(information[5])
         self.appetite = int(information[6])

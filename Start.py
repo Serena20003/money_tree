@@ -26,6 +26,8 @@ def DataValidation():
             st.session_state.signup_input_error[i] = 1
     if len(fields_wo_val) != 0:
         return fields_wo_val
+    if (st.session_state.user_input[7] == 0):
+        return "Risk level cannot be zero!"
     return None
     
 def Signup():
@@ -82,7 +84,7 @@ def Signup():
         if (st.session_state.signup_input_error[4]):
             st.error("Please fill out the above field")
         # 5
-        st.session_state.user_input[5] = st.slider(signup_input_labels[5], 0, 100, value=st.session_state.user_input[5])
+        st.session_state.user_input[5] = st.number_input(signup_input_labels[5], 0, 100, value=st.session_state.user_input[5])
         if (st.session_state.signup_input_error[5]):
             st.error("Please fill out the above field")
         # 6
@@ -90,7 +92,7 @@ def Signup():
         if (st.session_state.signup_input_error[6]):
             st.error("Please fill out the above field")
         # 7
-        st.session_state.user_input[7] = st.slider(signup_input_labels[7], 0, 100, value=st.session_state.user_input[7])
+        st.session_state.user_input[7] = st.number_input(signup_input_labels[7], 0, 100, value=st.session_state.user_input[7])
         if (st.session_state.signup_input_error[7]):
             st.error("Please fill out the above field")
         # 8
@@ -105,7 +107,7 @@ def Signup():
             validation = DataValidation()
             if (validation == None):
                 st.switch_page("pages/Report.py")
-            elif type(validation == list):
+            elif type(validation)  == list:
                 err_msg = "Not all fields are filled in:"
                 for j in validation:
                     err_msg += " " + signup_input_labels[j]
