@@ -1,0 +1,7 @@
+Name,Category,Yield (%),Min Investment
+^IRX,Bond,13 WEEK TREASURY BILL,100
+^FVX,Bond,Treasury Yield 5 Years,100
+^TNX,Bond,CBOE Interest Rate 10 Year T No,100
+^TYX,Bond,Treasury Yield 30 Years,100
+2YY=F,Bond,"2-Year Yield Futures,Mar-2025",100
+ZN=F,Bond,"10-Year T-Note Futures,Jun-2025",100

@@ -3,6 +3,7 @@ import requests
 import pandas as pd
 
 FMP_API_KEY = "SnDUCxCa9cPquuQ7o343nctcm46oTgYc"
+
 SYMBOL = "AAPL"  # Change to any stock
 ETF_SYMBOL = "LQD"
 COMMODITY_SYMBOL = "ES=F"
@@ -91,7 +92,7 @@ etf_quarterly = pd.DataFrame(etf_quarterly)
 # print(etf_quarterly)
 # print(etf_fundamentals)
 etf_quarterly.to_csv("etf_quarterly.csv", index=True)
-etf_quarterly.to_csv("etf_quarterly.csv", index=True)
+etf_fundamentals.to_csv("etf_fundamentals.csv", index=True)
 
 ###############################################################################################################
 #Commodities 
