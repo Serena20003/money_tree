@@ -1,0 +1,517 @@
+Ticker,Name,Category,Min Investment
+MLPX,Global X MLP & Energy Infrastructure ETF,ETF,1.0
+QLD,ProShares Ultra QQQ,ETF,1.0
+USAI,Pacer American Energy Independence ETF,ETF,1.0
+ENFR,Alerian Energy Infrastructure ETF,ETF,1.0
+PTF,Invesco Dorsey Wright Technology Momentum ETF,ETF,1.0
+HYHG,ProShares High Yield—Interest Rate Hedged,ETF,1.0
+PKB,Invesco Building & Construction ETF,ETF,1.0
+IAI,iShares U.S. Broker-Dealers & Securities Exchanges ETF,ETF,1.0
+ATMP,Barclays ETN+ Select MLP ETN,ETF,1.0
+KCE,SPDR S&P Capital Markets ETF,ETF,1.0
+IYG,iShares U.S. Financial Services ETF,ETF,1.0
+XLF,The Financial Select Sector SPDR Fund,ETF,1.0
+VFH,Vanguard Financials Index Fund ETF Shares,ETF,1.0
+IYF,iShares U.S. Financials ETF,ETF,1.0
+XSD,SPDR S&P Semiconductor ETF,ETF,1.0
+FNCL,Fidelity MSCI Financials Index ETF,ETF,1.0
+USMC,Principal U.S. Mega-Cap ETF,ETF,1.0
+MTUM,iShares MSCI USA Momentum Factor ETF,ETF,1.0
+FXU,First Trust Utilities AlphaDEX Fund,ETF,1.0
+IVW,iShares S&P 500 Growth ETF,ETF,1.0
+VFMO,Vanguard U.S. Momentum Factor ETF ETF Shares,ETF,1.0
+RSPG,Invesco S&P 500 Equal Weight Energy ETF,ETF,1.0
+SPMO,Invesco S&P 500 Momentum ETF,ETF,1.0
+OEF,iShares S&P 100 ETF,ETF,1.0
+DYNF,iShares U.S. Equity Factor Rotation Active ETF,ETF,1.0
+SPYG,SPDR Portfolio S&P 500 Growth ETF,ETF,1.0
+IWF,iShares Russell 1000 Growth ETF,ETF,1.0
+MGK,Vanguard Mega Cap Growth Index Fund,ETF,1.0
+VUG,Vanguard Growth Index Fund ETF Shares,ETF,1.0
+IWY,iShares Russell Top 200 Growth ETF,ETF,1.0
+VOOG,Vanguard S&P 500 Growth Index Fund ETF Shares,ETF,1.0
+XAR,SPDR S&P Aerospace & Defense ETF,ETF,1.0
+VCR,Vanguard Consumer Discretionary Index Fund ETF Shares,ETF,1.0
+SCHG,Schwab U.S. Large-Cap Growth ETF,ETF,1.0
+ILCG,iShares Morningstar Growth ETF,ETF,1.0
+TMFC,Motley Fool 100 Index ETF,ETF,1.0
+XLG,Invesco S&P 500 Top 50 ETF,ETF,1.0
+FOVL,iShares Focused Value Factor ETF,ETF,1.0
+SMH,VanEck Semiconductor ETF,ETF,1.0
+MMTM,SPDR S&P 1500 Momentum Tilt ETF,ETF,1.0
+VV,Vanguard Large Cap Index Fund,ETF,1.0
+MGC,Vanguard Mega Cap Index Fund,ETF,1.0
+DWAS,Invesco DWA SmallCap Momentum ETF,ETF,1.0
+USSG,Xtrackers MSCI USA Selection Equity ETF,ETF,1.0
+PRN,Invesco Dorsey Wright Industrials Momentum ETF,ETF,1.0
+XLY,The Consumer Discretionary Select Sector SPDR Fund,ETF,1.0
+VONG,Vanguard Russell 1000 Growth Index Fund ETF Shares,ETF,1.0
+RSPU,Invesco S&P 500 Equal Weight Utilities ETF,ETF,1.0
+UTES,Virtus Reaves Utilities ETF,ETF,1.0
+IWL,iShares Russell Top 200 ETF,ETF,1.0
+SCHX,Schwab U.S. Large-Cap ETF,ETF,1.0
+FTEC,Fidelity MSCI Information Technology Index ETF,ETF,1.0
+DDIV,First Trust Dorsey Wright Momentum & Dividend ETF,ETF,1.0
+IYW,iShares U.S. Technology ETF,ETF,1.0
+ONEQ,Fidelity Nasdaq Composite Index ETF,ETF,1.0
+VGT,Vanguard Information Technology Index Fund ETF Shares,ETF,1.0
+PUTW,WisdomTree PutWrite Strategy Fund,ETF,1.0
+NTSX,WisdomTree U.S. Efficient Core Fund,ETF,1.0
+SOXX,iShares Semiconductor ETF,ETF,1.0
+BLOK,Amplify Transformational Data Sharing ETF,ETF,1.0
+ITOT,iShares Core S&P Total U.S. Stock Market ETF,ETF,1.0
+QYLD,Global X NASDAQ 100 Covered Call ETF,ETF,1.0
+PWS,Pacer WealthShield ETF,ETF,1.0
+BBUS,JPMorgan BetaBuilders U.S. Equity ETF,ETF,1.0
+QQQ,Invesco QQQ Trust,ETF,1.0
+IVV,iShares Core S&P 500 ETF,ETF,1.0
+ARKW,ARK Next Generation Internet ETF,ETF,1.0
+FTXL,First Trust Nasdaq Semiconductor ETF,ETF,1.0
+FYC,First Trust Small Cap Growth AlphaDEX Fund,ETF,1.0
+IAK,iShares U.S. Insurance ETF,ETF,1.0
+PBUS,Invesco MSCI USA ETF,ETF,1.0
+FDIS,Fidelity MSCI Consumer Discretionary Index ETF,ETF,1.0
+SPYX,SPDR S&P 500 Fossil Fuel Reserves Free ETF,ETF,1.0
+PSL,Invesco Dorsey Wright Consumer Staples Momentum ETF,ETF,1.0
+SPY,SPDR S&P 500 ETF Trust,ETF,1.0
+VDE,Vanguard Energy Index Fund ETF Shares,ETF,1.0
+IWB,iShares Russell 1000 ETF,ETF,1.0
+VOO,Vanguard S&P 500 ETF,ETF,1.0
+XLE,The Energy Select Sector SPDR Fund,ETF,1.0
+VONE,Vanguard Russell 1000 Index Fund ETF Shares,ETF,1.0
+VTI,Vanguard Total Stock Market Index Fund ETF Shares,ETF,1.0
+SPLG,SPDR Portfolio S&P 500 ETF,ETF,1.0
+XLU,The Utilities Select Sector SPDR Fund,ETF,1.0
+KIE,SPDR S&P Insurance ETF,ETF,1.0
+RDIV,Invesco S&P Ultra Dividend Revenue ETF,ETF,1.0
+FUTY,Fidelity MSCI Utilities Index ETF,ETF,1.0
+DSI,iShares ESG MSCI KLD 400 ETF,ETF,1.0
+SCHB,Schwab U.S. Broad Market ETF,ETF,1.0
+EQWL,Invesco S&P 100 Equal Weight ETF,ETF,1.0
+EPS,WisdomTree U.S. LargeCap Fund,ETF,1.0
+ESGV,Vanguard ESG U.S. Stock ETF,ETF,1.0
+SPTM,SPDR Portfolio S&P 1500 Composite Stock Market ETF,ETF,1.0
+NULG,Nuveen ESG Large-Cap Growth ETF,ETF,1.0
+SPXV,ProShares S&P 500 ex-Health Care ETF,ETF,1.0
+MGV,Vanguard Mega Cap Value Index Fund,ETF,1.0
+FXO,First Trust Financials AlphaDEX Fund,ETF,1.0
+PRF,Invesco FTSE RAFI US 1000 ETF,ETF,1.0
+XMMO,Invesco S&P MidCap Momentum ETF,ETF,1.0
+QUAL,iShares MSCI USA Quality Factor ETF,ETF,1.0
+FENY,Fidelity MSCI Energy Index ETF,ETF,1.0
+MAGA,Point Bridge America First ETF,ETF,1.0
+XLC,The Communication Services Select Sector SPDR ETF Fund,ETF,1.0
+SPHQ,Invesco S&P 500 Quality ETF,ETF,1.0
+LRGF,iShares U.S. Equity Factor ETF,ETF,1.0
+NACP,Impact Shares NAACP Minority Empowerment ETF,ETF,1.0
+DLN,WisdomTree U.S. LargeCap Dividend Fund,ETF,1.0
+FTLS,First Trust Long/Short Equity ETF,ETF,1.0
+SPXE,ProShares S&P 500 ex-Energy ETF,ETF,1.0
+QGRO,American Century U.S. Quality Growth ETF,ETF,1.0
+KBWP,Invesco KBW Property & Casualty Insurance ETF,ETF,1.0
+SPXN,ProShares S&P 500 ex-Financials ETF,ETF,1.0
+VYM,Vanguard High Dividend Yield Index Fund ETF Shares,ETF,1.0
+DVLU,First Trust Dorsey Wright Momentum & Value ETF,ETF,1.0
+DTD,WisdomTree U.S. Total Dividend Fund,ETF,1.0
+VTV,Vanguard Value Index Fund ETF Shares,ETF,1.0
+VO,Vanguard Mid-Cap Index Fund ETF Shares,ETF,1.0
+IMCG,iShares Morningstar Mid-Cap Growth ETF,ETF,1.0
+DIA,SPDR Dow Jones Industrial Average ETF Trust,ETF,1.0
+RWL,Invesco S&P 500 Revenue ETF,ETF,1.0
+JMOM,JPMorgan U.S. Momentum Factor ETF,ETF,1.0
+FCOM,Fidelity MSCI Communication Services Index ETF,ETF,1.0
+VOOV,Vanguard S&P 500 Value Index Fund ETF Shares,ETF,1.0
+EQL,ALPS Equal Sector Weight ETF,ETF,1.0
+QMOM,Alpha Architect U.S. Quantitative Momentum ETF,ETF,1.0
+PY,Principal Value ETF,ETF,1.0
+PSI,Invesco Semiconductors ETF,ETF,1.0
+MFUS,PIMCO RAFI Dynamic Multi-Factor U.S. Equity ETF,ETF,1.0
+FNDX,Schwab Fundamental U.S. Large Company ETF,ETF,1.0
+VLU,SPDR S&P 1500 Value Tilt ETF,ETF,1.0
+IFRA,iShares U.S. Infrastructure ETF,ETF,1.0
+RFDA,RiverFront Dynamic US Dividend Advantage ETF,ETF,1.0
+IGM,iShares Expanded Tech Sector ETF,ETF,1.0
+IVE,iShares S&P 500 Value ETF,ETF,1.0
+ADME,Aptus Drawdown Managed Equity ETF,ETF,1.0
+FTXN,First Trust Nasdaq Oil & Gas ETF,ETF,1.0
+VXF,Vanguard Extended Market Index Fund ETF Shares,ETF,1.0
+XLK,The Technology Select Sector SPDR Fund,ETF,1.0
+PKW,Invesco BuyBack Achievers ETF,ETF,1.0
+BAPR,Innovator U.S. Equity Buffer ETF - April,ETF,1.0
+SCHD,Schwab U.S. Dividend Equity ETF,ETF,1.0
+FIDU,Fidelity MSCI Industrials Index ETF,ETF,1.0
+FAD,First Trust Multi Cap Growth AlphaDEX Fund,ETF,1.0
+VDC,Vanguard Consumer Staples Index Fund ETF Shares,ETF,1.0
+SPYV,SPDR Portfolio S&P 500 Value ETF,ETF,1.0
+ILCV,iShares Morningstar Value ETF,ETF,1.0
+IOO,iShares Global 100 ETF,ETF,1.0
+FNY,First Trust Mid Cap Growth AlphaDEX Fund,ETF,1.0
+SPGP,Invesco S&P 500 GARP ETF,ETF,1.0
+PFM,Invesco Dividend Achievers ETF,ETF,1.0
+VUSE,Vident U.S. Equity Strategy ETF,ETF,1.0
+ULVM,VictoryShares US Value Momentum ETF,ETF,1.0
+FDL,First Trust Morningstar Dividend Leaders Index Fund,ETF,1.0
+FVAL,Fidelity Value Factor ETF,ETF,1.0
+QDEF,FlexShares Quality Dividend Defensive Index Fund,ETF,1.0
+FNDB,Schwab Fundamental U.S. Broad Market ETF,ETF,1.0
+BBP,Virtus LifeSci Biotech Products ETF,ETF,1.0
+NZAC,SPDR MSCI ACWI Climate Paris Aligned ETF,ETF,1.0
+QLC,FlexShares US Quality Large Cap Index Fund,ETF,1.0
+RSPN,Invesco S&P 500 Equal Weight Industrials ETF,ETF,1.0
+QDF,FlexShares Quality Dividend Index Fund,ETF,1.0
+EUSA,iShares MSCI USA Equal Weighted ETF,ETF,1.0
+YLDE,Franklin ClearBridge Enhanced Income ETF,ETF,1.0
+DIVO,Amplify CWP Enhanced Dividend Income ETF,ETF,1.0
+DGRO,iShares Core Dividend Growth ETF,ETF,1.0
+IEO,iShares U.S. Oil & Gas Exploration & Production ETF,ETF,1.0
+SMLF,iShares U.S. Small-Cap Equity Factor ETF,ETF,1.0
+IWP,iShares Russell Mid-Cap Growth ETF,ETF,1.0
+URTH,iShares MSCI World ETF,ETF,1.0
+IUS,Invesco RAFI Strategic US ETF,ETF,1.0
+PPA,Invesco Aerospace & Defense ETF,ETF,1.0
+RTH,VanEck Retail ETF,ETF,1.0
+FDRR,Fidelity Dividend ETF for Rising Rates,ETF,1.0
+VFMF,Vanguard U.S. Multifactor ETF Shares,ETF,1.0
+VIS,Vanguard Industrials Index Fund ETF Shares,ETF,1.0
+PAVE,Global X U.S. Infrastructure Development ETF,ETF,1.0
+TOK,iShares MSCI Kokusai ETF,ETF,1.0
+WOMN,Impact Shares YWCA Women's Empowerment ETF,ETF,1.0
+SIZE,iShares MSCI USA Size Factor ETF,ETF,1.0
+IXN,iShares Global Tech ETF,ETF,1.0
+IUSV,iShares Core S&P U.S. Value ETF,ETF,1.0
+VHT,Vanguard Health Care Index Fund ETF Shares,ETF,1.0
+JQUA,JPMorgan U.S. Quality Factor ETF,ETF,1.0
+JSMD,Janus Henderson Small/Mid Cap Growth Alpha ETF,ETF,1.0
+XSMO,Invesco S&P SmallCap Momentum ETF,ETF,1.0
+HTUS,Hull Tactical US ETF,ETF,1.0
+ETHO,Amplify Etho Climate Leadership U.S. ETF,ETF,1.0
+XLV,The Health Care Select Sector SPDR Fund,ETF,1.0
+IYK,iShares US Consumer Staples ETF,ETF,1.0
+BFOR,Barron's 400 ETF,ETF,1.0
+ABFL,Abacus FCF Leaders ETF,ETF,1.0
+PSC,Principal U.S. Small-Cap ETF,ETF,1.0
+CWS,AdvisorShares Focused Equity ETF,ETF,1.0
+FHLC,Fidelity MSCI Health Care Index ETF,ETF,1.0
+AIRR,First Trust RBA American Industrial RenaissanceTM ETF,ETF,1.0
+IYH,iShares U.S. Healthcare ETF,ETF,1.0
+BJAN,Innovator U.S. Equity Buffer ETF - January,ETF,1.0
+SPVM,Invesco S&P 500 Value with Momentum ETF,ETF,1.0
+FDVV,Fidelity High Dividend ETF,ETF,1.0
+FYX,First Trust Small Cap Core AlphaDEX Fund,ETF,1.0
+IVOO,Vanguard S&P Mid-Cap 400 Index Fund ETF Shares,ETF,1.0
+SPMD,SPDR Portfolio S&P 400 Mid Cap ETF,ETF,1.0
+BJUL,Innovator U.S. Equity Buffer ETF - July,ETF,1.0
+RDVY,First Trust Rising Dividend Achievers ETF,ETF,1.0
+IETC,iShares U.S. Tech Independence Focused ETF,ETF,1.0
+CSA,VictoryShares US Small Cap Volatility Wtd ETF,ETF,1.0
+FV,First Trust Dorsey Wright Focus 5 ETF,ETF,1.0
+EWC,iShares MSCI Canada ETF,ETF,1.0
+SSPY,Stratified LargeCap Index ETF,ETF,1.0
+IXC,iShares Global Energy ETF,ETF,1.0
+IJH,iShares Core S&P Mid-Cap ETF,ETF,1.0
+BOCT,Innovator U.S. Equity Buffer ETF October,ETF,1.0
+VB,Vanguard Small-Cap Index Fund ETF Shares,ETF,1.0
+GII,SPDR S&P Global Infrastructure ETF,ETF,1.0
+DIVB,iShares Core Dividend ETF,ETF,1.0
+DON,WisdomTree U.S. MidCap Dividend Fund,ETF,1.0
+JVAL,JPMorgan U.S. Value Factor ETF,ETF,1.0
+MDYV,SPDR S&P 400 Mid Cap Value ETF,ETF,1.0
+VBR,Vanguard Small-Cap Value Index Fund ETF Shares,ETF,1.0
+WTV,WisdomTree U.S. Value Fund,ETF,1.0
+OUSM,ALPS O'Shares U.S. Small-Cap Quality Dividend ETF Shares,ETF,1.0
+DUSA,Davis Select U.S. Equity ETF,ETF,1.0
+ACWI,iShares MSCI ACWI ETF,ETF,1.0
+IHI,iShares U.S. Medical Devices ETF,ETF,1.0
+ONEO,SPDR Russell 1000 Momentum Focus ETF,ETF,1.0
+FSMD,Fidelity Small-Mid Multifactor ETF,ETF,1.0
+XSVM,Invesco S&P SmallCap Value with Momentum ETF,ETF,1.0
+FLQM,Franklin U.S. Mid Cap Multifactor Index ETF,ETF,1.0
+VFQY,Vanguard U.S. Quality Factor ETF Shares,ETF,1.0
+EQIN,Columbia U.S. Equity Income ETF,ETF,1.0
+VAW,Vanguard Materials Index Fund ETF Shares,ETF,1.0
+FNDA,Schwab Fundamental U.S. Small Company ETF,ETF,1.0
+ONEY,SPDR Russell 1000 Yield Focus ETF,ETF,1.0
+CRBN,iShares MSCI ACWI Low Carbon Target ETF,ETF,1.0
+QWLD,SPDR MSCI World StrategicFactors ETF,ETF,1.0
+REZ,iShares Residential and Multisector Real Estate ETF,ETF,1.0
+PJUL,Innovator U.S. Equity Power Buffer ETF - July,ETF,1.0
+RSPR,Invesco S&P 500 Equal Weight Real Estate ETF,ETF,1.0
+XNTK,SPDR NYSE Technology ETF,ETF,1.0
+XME,SPDR S&P Metals and Mining ETF,ETF,1.0
+IJJ,iShares S&P Mid-Cap 400 Value ETF,ETF,1.0
+FMAT,Fidelity MSCI Materials Index ETF,ETF,1.0
+VT,Vanguard Total World Stock Index Fund ETF Shares,ETF,1.0
+PHO,Invesco Water Resources ETF,ETF,1.0
+PSP,Invesco Global Listed Private Equity ETF,ETF,1.0
+SPHB,Invesco S&P 500 High Beta ETF,ETF,1.0
+TLH,iShares 10-20 Year Treasury Bond ETF,ETF,1.0
+IJR,iShares Core S&P Small-Cap ETF,ETF,1.0
+FNX,First Trust Mid Cap Core AlphaDEX Fund,ETF,1.0
+XLB,The Materials Select Sector SPDR Fund,ETF,1.0
+IVOV,Vanguard S&P Mid-Cap 400 Value Index Fund ETF Shares,ETF,1.0
+SHRY,First Trust Bloomberg Shareholder Yield ETF,ETF,1.0
+PRFZ,Invesco FTSE RAFI US 1500 Small-Mid ETF,ETF,1.0
+PSCC,Invesco S&P SmallCap Consumer Staples ETF,ETF,1.0
+XMVM,Invesco S&P MidCap Value with Momentum ETF,ETF,1.0
+MOAT,VanEck Morningstar Wide Moat ETF,ETF,1.0
+ESGG,FlexShares STOXX Global ESG Select Index Fund,ETF,1.0
+GRPM,Invesco S&P MidCap 400 GARP ETF,ETF,1.0
+POCT,Innovator U.S. Equity Power Buffer ETF October,ETF,1.0
+EZM,WisdomTree U.S. MidCap Earnings Fund,ETF,1.0
+SPGM,SPDR Portfolio MSCI Global Stock Market ETF,ETF,1.0
+SDVY,First Trust SMID Cap Rising Dividend Achievers ETF,ETF,1.0
+LGOV,First Trust Long Duration Opportunities ETF,ETF,1.0
+NANR,SPDR S&P North American Natural Resources ETF,ETF,1.0
+XMHQ,Invesco S&P MidCap Quality ETF,ETF,1.0
+EWL,iShares MSCI Switzerland ETF,ETF,1.0
+VFVA,Vanguard U.S. Value Factor ETF Shares,ETF,1.0
+BBRE,JPMorgan BetaBuilders MSCI U.S. REIT ETF,ETF,1.0
+SYLD,Cambria Shareholder Yield ETF,ETF,1.0
+IMTM,iShares MSCI Intl Momentum Factor ETF,ETF,1.0
+USVM,VictoryShares US Small Mid Cap Value Momentum ETF,ETF,1.0
+RWK,Invesco S&P MidCap 400 Revenue ETF,ETF,1.0
+PSCM,Invesco S&P SmallCap Materials ETF,ETF,1.0
+IDMO,Invesco S&P International Developed Momentum ETF,ETF,1.0
+RING,iShares MSCI Global Gold Miners ETF,ETF,1.0
+HEZU,iShares Currency Hedged MSCI Eurozone ETF,ETF,1.0
+DSTL,Distillate U.S. Fundamental Stability & Value ETF,ETF,1.0
+GOVI,Invesco Equal Weight 0-30 Years Treasury ETF,ETF,1.0
+VPC,Virtus Private Credit ETF,ETF,1.0
+USMF,WisdomTree U.S. Multifactor Fund,ETF,1.0
+HOMZ,The Hoya Capital Housing ETF,ETF,1.0
+AOA,iShares Core 80/20 Aggressive Allocation ETF,ETF,1.0
+XLRE,The Real Estate Select Sector SPDR Fund,ETF,1.0
+PSCI,Invesco S&P SmallCap Industrials ETF,ETF,1.0
+EPU,iShares MSCI Peru ETF,ETF,1.0
+XHB,SPDR S&P Homebuilders ETF,ETF,1.0
+FDM,First Trust Dow Jones Select MicroCap Index Fund,ETF,1.0
+DBEU,Xtrackers MSCI Europe Hedged Equity ETF,ETF,1.0
+GDX,VanEck Gold Miners ETF,ETF,1.0
+HYEM,VanEck Emerging Markets High Yield Bond ETF,ETF,1.0
+SPLB,SPDR Portfolio Long Term Corporate Bond ETF,ETF,1.0
+USRT,iShares Core U.S. REIT ETF,ETF,1.0
+RINF,ProShares Inflation Expectations ETF,ETF,1.0
+DGT,SPDR Global Dow ETF,ETF,1.0
+SCHP,Schwab U.S. TIPS ETF,ETF,1.0
+RWJ,Invesco S&P SmallCap 600 Revenue ETF,ETF,1.0
+DGRS,WisdomTree U.S. SmallCap Quality Dividend Growth Fund,ETF,1.0
+HEFA,iShares Currency Hedged MSCI EAFE ETF,ETF,1.0
+IHDG,WisdomTree International Hedged Quality Dividend Growth Fund,ETF,1.0
+QTUM,Defiance Quantum ETF,ETF,1.0
+RSPH,Invesco S&P 500 Equal Weight Health Care ETF,ETF,1.0
+JDIV,JPMorgan Dividend Leaders ETF,ETF,1.0
+RAAX,VanEck Real Assets ETF,ETF,1.0
+VCLT,Vanguard Long-Term Corporate Bond Index Fund ETF Shares,ETF,1.0
+CWB,SPDR Bloomberg Convertible Securities ETF,ETF,1.0
+DBEF,Xtrackers MSCI EAFE Hedged Equity ETF,ETF,1.0
+HTAB,Hartford Schroders Tax-Aware Bond ETF,ETF,1.0
+LQDI,iShares Inflation Hedged Corporate Bond ETF,ETF,1.0
+FIW,First Trust Water ETF,ETF,1.0
+RFV,Invesco S&P MidCap 400 Pure Value ETF,ETF,1.0
+IEF,iShares 7-10 Year Treasury Bond ETF,ETF,1.0
+TDTF,FlexShares iBoxx 5-Year Target Duration TIPS Index Fund,ETF,1.0
+EMHY,iShares J.P. Morgan EM High Yield Bond ETF,ETF,1.0
+FXZ,First Trust Materials AlphaDEX Fund,ETF,1.0
+LKOR,FlexShares Credit-Scored US Long Corporate Bond Index Fund,ETF,1.0
+JMBS,Janus Henderson Mortgage-Backed Securities ETF,ETF,1.0
+MBSD,FlexShares Disciplined Duration MBS Index Fund,ETF,1.0
+COWZ,Pacer US Cash Cows 100 ETF,ETF,1.0
+RSPM,Invesco S&P 500 Equal Weight Materials ETF,ETF,1.0
+YYY,Amplify High Income ETF,ETF,1.0
+FBND,Fidelity Total Bond ETF,ETF,1.0
+DDWM,WisdomTree Dynamic Currency Hedged International Equity Fund,ETF,1.0
+HEDJ,WisdomTree Europe Hedged Equity Fund,ETF,1.0
+ICVT,iShares Convertible Bond ETF,ETF,1.0
+PXE,Invesco Dynamic Energy Exploration & Production ETF,ETF,1.0
+GRNB,VanEck Green Bond ETF,ETF,1.0
+DBEZ,Xtrackers MSCI Eurozone Hedged Equity ETF,ETF,1.0
+CSD,Invesco S&P Spin-Off ETF,ETF,1.0
+VAMO,Cambria Value and Momentum ETF,ETF,1.0
+PCEF,Invesco CEF Income Composite ETF,ETF,1.0
+CMBS,iShares CMBS ETF,ETF,1.0
+ITB,iShares U.S. Home Construction ETF,ETF,1.0
+FVC,First Trust Dorsey Wright Dynamic Focus 5 ETF,ETF,1.0
+VMBS,Vanguard Mortgage-Backed Securities Index Fund ETF Shares,ETF,1.0
+SCHR,Schwab Intermediate-Term U.S. Treasury ETF,ETF,1.0
+BIV,Vanguard Intermediate-Term Bond Index Fund,ETF,1.0
+JCPB,JPMorgan Core Plus Bond ETF,ETF,1.0
+BOUT,Innovator IBD Breakout Opportunities ETF,ETF,1.0
+UITB,VictoryShares Core Intermediate Bond ETF,ETF,1.0
+IGIB,iShares 5-10 Year Investment Grade Corporate Bond ETF,ETF,1.0
+IGEB,iShares Investment Grade Systematic Bond ETF,ETF,1.0
+JPIB,JPMorgan International Bond Opportunities ETF,ETF,1.0
+FEZ,SPDR EURO STOXX 50 ETF,ETF,1.0
+SPTI,SPDR Portfolio Intermediate Term Treasury ETF,ETF,1.0
+CEMB,iShares J.P. Morgan EM Corporate Bond ETF,ETF,1.0
+IBD,Inspire Corporate Bond ETF,ETF,1.0
+HFXI,NYLI FTSE International Equity Currency Neutral ETF,ETF,1.0
+KORP,American Century Diversified Corporate Bond ETF,ETF,1.0
+VGIT,Vanguard Intermediate-Term Treasury Index Fund ETF Shares,ETF,1.0
+FPEI,First Trust Institutional Preferred Securities and Income ETF,ETF,1.0
+IEI,iShares 3-7 Year Treasury Bond ETF,ETF,1.0
+PFFA,Virtus InfraCap U.S. Preferred Stock ETF,ETF,1.0
+VCIT,Vanguard Intermediate-Term Corporate Bond Index Fund ETF Shares,ETF,1.0
+STIP,iShares 0-5 Year TIPS Bond ETF,ETF,1.0
+FALN,iShares Fallen Angels USD Bond ETF,ETF,1.0
+URA,Global X Uranium ETF,ETF,1.0
+HYDB,iShares High Yield Systematic Bond ETF,ETF,1.0
+FLTW,Franklin FTSE Taiwan ETF,ETF,1.0
+AUSF,Global X Adaptive U.S. Factor ETF,ETF,1.0
+SKOR,FlexShares Credit-Scored US Corporate Bond Index Fund,ETF,1.0
+RLY,SPDR SSgA Multi-Asset Real Return ETF,ETF,1.0
+VTIP,Vanguard Short-Term Inflation-Protected Securities Index Fund ETF Shares,ETF,1.0
+SHYG,iShares 0-5 Year High Yield Corporate Bond ETF,ETF,1.0
+IQLT,iShares MSCI Intl Quality Factor ETF,ETF,1.0
+SJNK,SPDR Bloomberg Short Term High Yield Bond ETF,ETF,1.0
+BLCN,Siren Nasdaq NexGen Economy ETF,ETF,1.0
+SPIB,SPDR Portfolio Intermediate Term Corporate Bond ETF,ETF,1.0
+PBTP,Invesco 0-5 Yr US TIPS ETF,ETF,1.0
+HYUP,Xtrackers High Beta High Yield Bond ETF,ETF,1.0
+DRSK,Aptus Defined Risk ETF,ETF,1.0
+MMIT,NYLI MacKay Muni Intermediate ETF,ETF,1.0
+FLEU,Franklin FTSE Eurozone ETF,ETF,1.0
+VRP,Invesco Variable Rate Preferred ETF,ETF,1.0
+LMBS,First Trust Low Duration Opportunities ETF,ETF,1.0
+ANGL,VanEck Fallen Angel High Yield Bond ETF,ETF,1.0
+FMB,First Trust Managed Municipal ETF,ETF,1.0
+EES,WisdomTree U.S. SmallCap Earnings Fund,ETF,1.0
+FPE,First Trust Preferred Securities and Income ETF,ETF,1.0
+JMUB,JPMorgan Municipal ETF,ETF,1.0
+IGSB,iShares 1-5 Year Investment Grade Corporate Bond ETF,ETF,1.0
+SPHY,SPDR Portfolio High Yield Bond ETF,ETF,1.0
+LDUR,PIMCO Enhanced Low Duration Active Exchange-Traded Fund,ETF,1.0
+SCHO,Schwab Short-Term U.S. Treasury ETF,ETF,1.0
+YLD,Principal Active High Yield ETF,ETF,1.0
+FLMI,Franklin Dynamic Municipal Bond ETF,ETF,1.0
+IAGG,iShares Core International Aggregate Bond ETF,ETF,1.0
+USTB,VictoryShares Short-Term Bond ETF,ETF,1.0
+GAL,SPDR SSgA Global Allocation ETF,ETF,1.0
+VGSH,Vanguard Short-Term Treasury Index Fund ETF Shares,ETF,1.0
+PHYL,PGIM Active High Yield Bond ETF,ETF,1.0
+HYS,PIMCO 0-5 Year High Yield Corporate Bond Index Exchange-Traded Fund,ETF,1.0
+FLHY,Franklin High Yield Corporate ETF,ETF,1.0
+EWD,iShares MSCI Sweden ETF,ETF,1.0
+SLQD,iShares 0-5 Year Investment Grade Corporate Bond ETF,ETF,1.0
+MEAR,iShares Short Maturity Municipal Bond Active ETF,ETF,1.0
+NEAR,iShares Short Duration Bond Active ETF,ETF,1.0
+FYLD,Cambria Foreign Shareholder Yield ETF,ETF,1.0
+FIBR,iShares U.S. Fixed Income Balanced Risk Systematic ETF,ETF,1.0
+FPXI,First Trust International Equity Opportunities ETF,ETF,1.0
+VCSH,Vanguard Short-Term Corporate Bond Index Fund ETF Shares,ETF,1.0
+SPTS,SPDR Portfolio Short Term Treasury ETF,ETF,1.0
+SHYL,Xtrackers Short Duration High Yield Bond ETF,ETF,1.0
+SPSB,SPDR Portfolio Short Term Corporate Bond ETF,ETF,1.0
+GRID,First Trust NASDAQ Clean Edge Smart Grid Infrastructure Index Fund,ETF,1.0
+JPST,JPMorgan Ultra-Short Income ETF,ETF,1.0
+MFLX,First Trust Flexible Municipal High Income ETF,ETF,1.0
+HMOP,Hartford Municipal Opportunities ETF,ETF,1.0
+CBON,VanEck China Bond ETF,ETF,1.0
+VNLA,Janus Henderson Short Duration Income ETF,ETF,1.0
+MFDX,PIMCO RAFI Dynamic Multi-Factor International Equity ETF,ETF,1.0
+NUDM,Nuveen ESG International Developed Markets Equity ETF,ETF,1.0
+BSJP,Invesco BulletShares 2025 High Yield Corporate Bond ETF,ETF,1.0
+PULS,PGIM Ultra Short Bond ETF,ETF,1.0
+AADR,AdvisorShares Dorsey Wright ADR ETF,ETF,1.0
+GSY,Invesco Ultra Short Duration ETF,ETF,1.0
+VEA,Vanguard FTSE Developed Markets Index Fund ETF Shares,ETF,1.0
+FLTR,VanEck IG Floating Rate ETF,ETF,1.0
+QEFA,SPDR MSCI EAFE StrategicFactors ETF,ETF,1.0
+FLBL,Franklin Senior Loan ETF,ETF,1.0
+DXJS,WisdomTree Japan Hedged SmallCap Equity Fund,ETF,1.0
+FLOT,iShares Floating Rate Bond ETF,ETF,1.0
+SMMU,PIMCO Short Term Municipal Bond Active Exchange-Traded Fund,ETF,1.0
+SCHF,Schwab International Equity ETF,ETF,1.0
+GOEX,Global X Gold Explorers ETF,ETF,1.0
+JMST,JPMorgan Ultra-Short Municipal Income ETF,ETF,1.0
+FLRT,Pacer Pacific Asset Floating Rate High Income ETF,ETF,1.0
+VRIG,Invesco Variable Rate Investment Grade ETF,ETF,1.0
+TAXF,American Century Diversified Municipal Bond ETF,ETF,1.0
+FLRN,SPDR Bloomberg Investment Grade Floating Rate ETF,ETF,1.0
+QINT,American Century Quality Diversified International ETF,ETF,1.0
+DBAW,Xtrackers MSCI All World ex US Hedged Equity ETF,ETF,1.0
+FTSD,Franklin Short Duration U.S. Government ETF,ETF,1.0
+LVHI,Franklin International Low Volatility High Dividend Index ETF,ETF,1.0
+TLTD,FlexShares Morningstar Developed Markets ex-US Factor Tilt Index Fund,ETF,1.0
+IGHG,ProShares Investment Grade—Interest Rate Hedged,ETF,1.0
+EWT,iShares MSCI Taiwan ETF,ETF,1.0
+PXF,Invesco FTSE RAFI Developed Markets ex-U.S. ETF,ETF,1.0
+IEFA,iShares Core MSCI EAFE ETF,ETF,1.0
+HAWX,iShares Currency Hedged MSCI ACWI ex U.S. ETF,ETF,1.0
+HSCZ,iShares Currency Hedged MSCI EAFE Small-Cap ETF,ETF,1.0
+IVLU,iShares Edge MSCI Intl Value Factor ETF,ETF,1.0
+HEWJ,iShares Currency Hedged MSCI Japan ETF,ETF,1.0
+EWW,iShares MSCI Mexico ETF,ETF,1.0
+DBJP,Xtrackers MSCI Japan Hedged Equity ETF,ETF,1.0
+EUSC,WisdomTree Europe Hedged SmallCap Equity Fund,ETF,1.0
+DIVI,Franklin International Core Dividend Tilt Index ETF,ETF,1.0
+SLX,VanEck Steel ETF,ETF,1.0
+LQDH,iShares Interest Rate Hedged Corporate Bond ETF,ETF,1.0
+IGBH,iShares Interest Rate Hedged Long-Term Corporate Bond ETF,ETF,1.0
+IDOG,ALPS International Sector Dividend Dogs ETF,ETF,1.0
+VYMI,Vanguard International High Dividend Yield Index Fund ETF Shares,ETF,1.0
+FNDF,Schwab Fundamental International Equity ETF,ETF,1.0
+DXJ,WisdomTree Japan Hedged Equity Fund,ETF,1.0
+PIZ,Invesco Dorsey Wright Developed Markets Momentum ETF,ETF,1.0
+CEFS,Saba Closed-End Funds ETF,ETF,1.0
+IPKW,Invesco International BuyBack Achievers ETF,ETF,1.0
+HYZD,WisdomTree Interest Rate Hedged High Yield Bond Fund,ETF,1.0
+HYGH,iShares Interest Rate Hedged High Yield Bond ETF,ETF,1.0
+DWLD,Davis Select Worldwide ETF,ETF,1.0
+ESPO,VanEck Video Gaming and eSports ETF,ETF,1.0
+EWM,iShares MSCI Malaysia ETF,ETF,1.0
+SMIN,iShares MSCI India Small-Cap ETF,ETF,1.0
+INTF,iShares International Equity Factor ETF,ETF,1.0
+INEQ,Columbia International Equity Income ETF,ETF,1.0
+ECH,iShares MSCI Chile ETF,ETF,1.0
+CEW,WisdomTree Emerging Currency Strategy Fund,ETF,1.0
+IQDY,FlexShares International Quality Dividend Dynamic Index Fund,ETF,1.0
+FFIU,Fieldstone UVA Unconstrained Medium-Term Fixed Income ETF,ETF,1.0
+IPAC,iShares Core MSCI Pacific ETF,ETF,1.0
+IAU,iShares Gold Trust,ETF,1.0
+GLD,SPDR Gold Shares,ETF,1.0
+FLJH,Franklin FTSE Japan Hedged ETF,ETF,1.0
+GXG,Global X MSCI Colombia ETF,ETF,1.0
+ROBO,Robo Global Robotics and Automation Index ETF,ETF,1.0
+EWJV,iShares MSCI Japan Value ETF,ETF,1.0
+EDIV,SPDR S&P Emerging Markets Dividend ETF,ETF,1.0
+DBC,Invesco DB Commodity Index Tracking Fund,ETF,1.0
+TUR,iShares MSCI Turkey ETF,ETF,1.0
+EYLD,Cambria Emerging Shareholder Yield ETF,ETF,1.0
+WLDR,Affinity World Leaders Equity ETF,ETF,1.0
+FTGC,First Trust Global Tactical Commodity Strategy Fund,ETF,1.0
+EPI,WisdomTree India Earnings Fund,ETF,1.0
+DEM,WisdomTree Emerging Markets High Dividend Fund,ETF,1.0
+BCD,abrdn Bloomberg All Commodity Longer Dated Strategy K-1 Free ETF,ETF,1.0
+EMXC,iShares MSCI Emerging Markets ex China ETF,ETF,1.0
+VPL,Vanguard FTSE Pacific Index Fund ETF Shares,ETF,1.0
+XCEM,Columbia EM Core ex-China ETF,ETF,1.0
+RFEM,First Trust RiverFront Dynamic Emerging Markets ETF,ETF,1.0
+DGS,WisdomTree Emerging Markets SmallCap Dividend Fund,ETF,1.0
+THD,iShares MSCI Thailand ETF,ETF,1.0
+EMMF,WisdomTree Emerging Markets Multifactor Fund,ETF,1.0
+FNDE,Schwab Fundamental Emerging Markets Equity ETF,ETF,1.0
+USCI,"United States Commodity Index Fund, LP",ETF,1.0
+SDCI,USCF SummerHaven Dynamic Commodity Strategy No K-1 Fund,ETF,1.0
+MFEM,PIMCO RAFI Dynamic Multi-Factor Emerging Markets Equity ETF,ETF,1.0
+EWX,SPDR S&P Emerging Markets Small Cap ETF,ETF,1.0
+ROAM,Hartford Multifactor Emerging Markets ETF,ETF,1.0
+COPX,Global X Copper Miners ETF,ETF,1.0
+PXH,Invesco FTSE RAFI Emerging Markets ETF,ETF,1.0
+EEMS,iShares MSCI Emerging Markets Small-Cap ETF,ETF,1.0
+RNEM,First Trust Emerging Markets Equity Select ETF,ETF,1.0
+SPEM,SPDR Portfolio Emerging Markets ETF,ETF,1.0
+EDOG,ALPS Emerging Sector Dividend Dogs ETF,ETF,1.0
+AIA,iShares Asia 50 ETF,ETF,1.0
+NFTY,First Trust India NIFTY 50 Equal Weight ETF,ETF,1.0
+FEMS,First Trust Emerging Markets Small Cap AlphaDEX Fund,ETF,1.0
+EMGF,iShares Emerging Markets Equity Factor ETF,ETF,1.0
+UEVM,VictoryShares Emerging Markets Value Momentum ETF,ETF,1.0
+CNYA,iShares MSCI China A ETF,ETF,1.0
+GMF,SPDR S&P Emerging Asia Pacific ETF,ETF,1.0
+FCA,First Trust China AlphaDEX Fund,ETF,1.0
+EZA,iShares MSCI South Africa ETF,ETF,1.0
+HEEM,iShares Currency Hedged MSCI Emerging Markets ETF,ETF,1.0
+INCO,Columbia India Consumer ETF,ETF,1.0
+FDEM,Fidelity Emerging Markets Multifactor ETF,ETF,1.0
+CHIQ,Global X MSCI China Consumer Discretionary ETF,ETF,1.0
+IDX,VanEck Indonesia Index ETF,ETF,1.0

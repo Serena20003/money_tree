@@ -1,0 +1,42 @@
+Ticker,Name,Category
+^GSPC,S&P 500,World Index
+^DJI,Dow Jones Industrial Average,World Index
+^IXIC,NASDAQ Composite,World Index
+^NYA,NYSE COMPOSITE (DJ),World Index
+^XAX,NYSE AMEX COMPOSITE INDEX,World Index
+^BUK100P,Cboe UK 100,World Index
+^RUT,Russell 2000,World Index
+^VIX,CBOE Volatility Index,World Index
+^FTSE,FTSE 100,World Index
+^GDAXI,DAX                           P,World Index
+^FCHI,CAC 40,World Index
+^STOXX50E,EURO STOXX 50                 I,World Index
+^N100,Euronext 100 Index,World Index
+^BFX,BEL 20,World Index
+MOEX.ME,Public Joint-Stock Company Moscow Exchange MICEX-RTS,World Index
+^HSI,HANG SENG INDEX,World Index
+^STI,STI Index,World Index
+^AXJO,S&P/ASX 200,World Index
+^AORD,ALL ORDINARIES,World Index
+^BSESN,S&P BSE SENSEX,World Index
+^JKSE,IDX COMPOSITE,World Index
+^KLSE,FTSE Bursa Malaysia KLCI,World Index
+^NZ50,S&P/NZX 50 INDEX GROSS ( GROSS,World Index
+^KS11,KOSPI Composite Index,World Index
+^TWII,TWSE Capitalization Weighted Stock Index,World Index
+^GSPTSE,S&P/TSX Composite index,World Index
+^BVSP,IBOVESPA,World Index
+^MXX,IPC MEXICO,World Index
+^IPSA,S&P IPSA,World Index
+^MERV,MERVAL,World Index
+^TA125.TA,TA-125,World Index
+^CASE30,EGX 30 Price Return Index,World Index
+^JN0U.JO,Top 40 USD Net TRI Index,World Index
+DX-Y.NYB,US Dollar Index,World Index
+^125904-USD-STRD,MSCI EUROPE,World Index
+^XDB,British Pound Currency Index,World Index
+^XDE,Euro Currency Index,World Index
+000001.SS,SSE Composite Index,World Index
+^N225,Nikkei 225,World Index
+^XDN,Japanese Yen Currency Index,World Index
+^XDA,Australian Dollar Currency Index,World Index

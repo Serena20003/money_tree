@@ -1,0 +1,74 @@
+Symbol,Name,Category,Min Investment
+Nasdaq: LAMR,Lamar Advertising Company,Advertising,1.0
+OUT,Outfront Media,Advertising,1.0
+AIV,Aimco,Apartments,1.0
+AVB,AvalonBay Communities[1],Apartments,1.0
+CPT,Camden Property Trust,Apartments,1.0
+EQR,Equity Residential[1],Apartments,1.0
+ESS,Essex Property Trust[1],Apartments,1.0
+MAA,Mid-America Apartment Communities,Apartments,1.0
+UDR,"UDR, Inc.",Apartments,1.0
+GLPI,Gaming and Leisure Properties,Casinos; lodging,1.0
+VICI,Vici Properties[1],Casinos; lodging,1.0
+DLR,Digital Realty[1],Data Center,1.0
+Nasdaq: EQIX,Equinix[1],Data Center,1.0
+Nasdaq: IRM,Iron Mountain,Data Center,1.0
+QTS,Quality Technology Services,Data Center,1.0
+ALX,Alexander's,Diversified,1.0
+EPR,EPR Properties,Diversified,1.0
+JBGS,JBG Smith,Diversified,1.0
+STWD,Starwood Property Trust[1],Diversified,1.0
+STOR,STORE Capital,Diversified,1.0
+VNO,Vornado Realty Trust,Diversified,1.0
+WPC,W. P. Carey[1],Diversified,1.0
+PEAK,Healthpeak Properties[1],Healthcare,1.0
+MPW,Medical Properties Trust[1],Healthcare,1.0
+VTR,Ventas[1],Healthcare,1.0
+WELL,Welltower[1],Healthcare,1.0
+COLD,Americold,Industrial,1.0
+PLD,Prologis[1],Industrial,1.0
+STAY,Extended Stay America,Lodging,1.0
+HST,Host Hotels & Resorts,Lodging,1.0
+HT,Hersha Hospitality Trust,Lodging,1.0
+IHT,InnSuites Hospitality,Lodging,1.0
+PK,Park Hotels & Resorts,Lodging,1.0
+XHR,Xenia Hotels & Resorts,Lodging,1.0
+SUI,Sun Communities,Manufactured Housing,1.0
+UMH,UMH Properties,Manufactured Housing,1.0
+NLY,Annaly Capital Management[1],Mortgage,1.0
+AI,Arlington Asset Investment,Mortgage,1.0
+ARE,Alexandria Real Estate Equities[1],Office,1.0
+BXP,Boston Properties[1],Office,1.0
+BDN,Brandywine Realty Trust,Office,1.0
+OFC,Corporate Office Properties Trust,Office,1.0
+CUZ,Cousins Properties,Office,1.0
+HPP,Hudson Pacific Properties,Office,1.0
+VRE,Veris Residential,Residential,1.0
+SLG,SL Green Realty,Office,1.0
+CXW,CoreCivic,Private prisons,1.0
+GEO,GEO Group,Private prisons,1.0
+CBL,CBL Properties,Regional Malls,1.0
+MAC,Macerich,Regional Malls,1.0
+SPG,Simon Property Group[1],Regional Malls,1.0
+CUBE,CubeSmart,Self-Storage,1.0
+EXR,Extra Space Storage[1],Self-Storage,1.0
+LSI,Life Storage,Self-Storage,1.0
+PSA,Public Storage[1],Self-Storage,1.0
+BRX,Brixmor Property Group,Shopping Centers,1.0
+FRT,Federal Realty Investment Trust,Shopping Centers,1.0
+IVT,InvenTrust Properties,Shopping Centers,1.0
+KIM,Kimco Realty,Shopping Centers,1.0
+Nasdaq: REG,Regency Centers,Shopping Centers,1.0
+SITC,SITE Centers,Shopping Centers,1.0
+SKT,Tanger Factory Outlet Centers,Shopping Centers,1.0
+UBP,Urstadt Biddle Properties,Shopping Centers,1.0
+NNN,National Retail Properties,Single Tenant/NNN,1.0
+O,Realty Income Corporation[1],Single Tenant/NNN,1.0
+AMH,American Homes 4 Rent,Single-Family Houses,1.0
+INVH,Invitation Homes,Single-Family Houses,1.0
+AMT,American Tower,Telecommunications,1.0
+CCI,Crown Castle[1],Telecommunications,1.0
+Nasdaq: SBAC,SBA Communications,Telecommunications,1.0
+PCH,PotlatchDeltic,Timber,1.0
+RYN,Rayonier,Timber,1.0
+WY,Weyerhaeuser[1],Timber,1.0

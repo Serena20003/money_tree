@@ -1,0 +1,501 @@
+Ticker,Name,GICS Sector,Category
+MMM,3M,Industrials,Blue-Chip
+AOS,A. O. Smith,Industrials,Blue-Chip
+ABT,Abbott Laboratories,Health Care,Blue-Chip
+ABBV,AbbVie,Health Care,Blue-Chip
+ACN,Accenture,Information Technology,Blue-Chip
+ADBE,Adobe Inc.,Information Technology,Blue-Chip
+AMD,Advanced Micro Devices,Information Technology,Blue-Chip
+AES,AES Corporation,Utilities,Blue-Chip
+AFL,Aflac,Financials,Blue-Chip
+A,Agilent Technologies,Health Care,Blue-Chip
+APD,Air Products,Materials,Blue-Chip
+ABNB,Airbnb,Consumer Discretionary,Blue-Chip
+AKAM,Akamai Technologies,Information Technology,Blue-Chip
+ALB,Albemarle Corporation,Materials,Blue-Chip
+ARE,Alexandria Real Estate Equities,Real Estate,Blue-Chip
+ALGN,Align Technology,Health Care,Blue-Chip
+ALLE,Allegion,Industrials,Blue-Chip
+LNT,Alliant Energy,Utilities,Blue-Chip
+ALL,Allstate,Financials,Blue-Chip
+GOOGL,Alphabet Inc. (Class A),Communication Services,Blue-Chip
+GOOG,Alphabet Inc. (Class C),Communication Services,Blue-Chip
+MO,Altria,Consumer Staples,Blue-Chip
+AMZN,Amazon,Consumer Discretionary,Blue-Chip
+AMCR,Amcor,Materials,Blue-Chip
+AEE,Ameren,Utilities,Blue-Chip
+AEP,American Electric Power,Utilities,Blue-Chip
+AXP,American Express,Financials,Blue-Chip
+AIG,American International Group,Financials,Blue-Chip
+AMT,American Tower,Real Estate,Blue-Chip
+AWK,American Water Works,Utilities,Blue-Chip
+AMP,Ameriprise Financial,Financials,Blue-Chip
+AME,Ametek,Industrials,Blue-Chip
+AMGN,Amgen,Health Care,Blue-Chip
+APH,Amphenol,Information Technology,Blue-Chip
+ADI,Analog Devices,Information Technology,Blue-Chip
+ANSS,Ansys,Information Technology,Blue-Chip
+AON,Aon,Financials,Blue-Chip
+APA,APA Corporation,Energy,Blue-Chip
+APO,Apollo Global Management,Financials,Blue-Chip
+AAPL,Apple Inc.,Information Technology,Blue-Chip
+AMAT,Applied Materials,Information Technology,Blue-Chip
+APTV,Aptiv,Consumer Discretionary,Blue-Chip
+ACGL,Arch Capital Group,Financials,Blue-Chip
+ADM,Archer Daniels Midland,Consumer Staples,Blue-Chip
+ANET,Arista Networks,Information Technology,Blue-Chip
+AJG,Arthur J. Gallagher & Co.,Financials,Blue-Chip
+AIZ,Assurant,Financials,Blue-Chip
+T,AT&T,Communication Services,Blue-Chip
+ATO,Atmos Energy,Utilities,Blue-Chip
+ADSK,Autodesk,Information Technology,Blue-Chip
+ADP,Automatic Data Processing,Industrials,Blue-Chip
+AZO,AutoZone,Consumer Discretionary,Blue-Chip
+AVB,AvalonBay Communities,Real Estate,Blue-Chip
+AVY,Avery Dennison,Materials,Blue-Chip
+AXON,Axon Enterprise,Industrials,Blue-Chip
+BKR,Baker Hughes,Energy,Blue-Chip
+BALL,Ball Corporation,Materials,Blue-Chip
+BAC,Bank of America,Financials,Blue-Chip
+BAX,Baxter International,Health Care,Blue-Chip
+BDX,Becton Dickinson,Health Care,Blue-Chip
+BRK.B,Berkshire Hathaway,Financials,Blue-Chip
+BBY,Best Buy,Consumer Discretionary,Blue-Chip
+TECH,Bio-Techne,Health Care,Blue-Chip
+BIIB,Biogen,Health Care,Blue-Chip
+BLK,BlackRock,Financials,Blue-Chip
+BX,Blackstone Inc.,Financials,Blue-Chip
+BK,BNY Mellon,Financials,Blue-Chip
+BA,Boeing,Industrials,Blue-Chip
+BKNG,Booking Holdings,Consumer Discretionary,Blue-Chip
+BWA,BorgWarner,Consumer Discretionary,Blue-Chip
+BSX,Boston Scientific,Health Care,Blue-Chip
+BMY,Bristol Myers Squibb,Health Care,Blue-Chip
+AVGO,Broadcom,Information Technology,Blue-Chip
+BR,Broadridge Financial Solutions,Industrials,Blue-Chip
+BRO,Brown & Brown,Financials,Blue-Chip
+BF.B,Brown–Forman,Consumer Staples,Blue-Chip
+BLDR,Builders FirstSource,Industrials,Blue-Chip
+BG,Bunge Global,Consumer Staples,Blue-Chip
+BXP,"BXP, Inc.",Real Estate,Blue-Chip
+CHRW,C.H. Robinson,Industrials,Blue-Chip
+CDNS,Cadence Design Systems,Information Technology,Blue-Chip
+CZR,Caesars Entertainment,Consumer Discretionary,Blue-Chip
+CPT,Camden Property Trust,Real Estate,Blue-Chip
+CPB,Campbell Soup Company,Consumer Staples,Blue-Chip
+COF,Capital One,Financials,Blue-Chip
+CAH,Cardinal Health,Health Care,Blue-Chip
+KMX,CarMax,Consumer Discretionary,Blue-Chip
+CCL,Carnival,Consumer Discretionary,Blue-Chip
+CARR,Carrier Global,Industrials,Blue-Chip
+CAT,Caterpillar Inc.,Industrials,Blue-Chip
+CBOE,Cboe Global Markets,Financials,Blue-Chip
+CBRE,CBRE Group,Real Estate,Blue-Chip
+CDW,CDW,Information Technology,Blue-Chip
+CE,Celanese,Materials,Blue-Chip
+COR,Cencora,Health Care,Blue-Chip
+CNC,Centene Corporation,Health Care,Blue-Chip
+CNP,CenterPoint Energy,Utilities,Blue-Chip
+CF,CF Industries,Materials,Blue-Chip
+CRL,Charles River Laboratories,Health Care,Blue-Chip
+SCHW,Charles Schwab Corporation,Financials,Blue-Chip
+CHTR,Charter Communications,Communication Services,Blue-Chip
+CVX,Chevron Corporation,Energy,Blue-Chip
+CMG,Chipotle Mexican Grill,Consumer Discretionary,Blue-Chip
+CB,Chubb Limited,Financials,Blue-Chip
+CHD,Church & Dwight,Consumer Staples,Blue-Chip
+CI,Cigna,Health Care,Blue-Chip
+CINF,Cincinnati Financial,Financials,Blue-Chip
+CTAS,Cintas,Industrials,Blue-Chip
+CSCO,Cisco,Information Technology,Blue-Chip
+C,Citigroup,Financials,Blue-Chip
+CFG,Citizens Financial Group,Financials,Blue-Chip
+CLX,Clorox,Consumer Staples,Blue-Chip
+CME,CME Group,Financials,Blue-Chip
+CMS,CMS Energy,Utilities,Blue-Chip
+KO,Coca-Cola Company (The),Consumer Staples,Blue-Chip
+CTSH,Cognizant,Information Technology,Blue-Chip
+CL,Colgate-Palmolive,Consumer Staples,Blue-Chip
+CMCSA,Comcast,Communication Services,Blue-Chip
+CAG,Conagra Brands,Consumer Staples,Blue-Chip
+COP,ConocoPhillips,Energy,Blue-Chip
+ED,Consolidated Edison,Utilities,Blue-Chip
+STZ,Constellation Brands,Consumer Staples,Blue-Chip
+CEG,Constellation Energy,Utilities,Blue-Chip
+COO,Cooper Companies (The),Health Care,Blue-Chip
+CPRT,Copart,Industrials,Blue-Chip
+GLW,Corning Inc.,Information Technology,Blue-Chip
+CPAY,Corpay,Financials,Blue-Chip
+CTVA,Corteva,Materials,Blue-Chip
+CSGP,CoStar Group,Real Estate,Blue-Chip
+COST,Costco,Consumer Staples,Blue-Chip
+CTRA,Coterra,Energy,Blue-Chip
+CRWD,CrowdStrike,Information Technology,Blue-Chip
+CCI,Crown Castle,Real Estate,Blue-Chip
+CSX,CSX Corporation,Industrials,Blue-Chip
+CMI,Cummins,Industrials,Blue-Chip
+CVS,CVS Health,Health Care,Blue-Chip
+DHR,Danaher Corporation,Health Care,Blue-Chip
+DRI,Darden Restaurants,Consumer Discretionary,Blue-Chip
+DVA,DaVita,Health Care,Blue-Chip
+DAY,Dayforce,Industrials,Blue-Chip
+DECK,Deckers Brands,Consumer Discretionary,Blue-Chip
+DE,Deere & Company,Industrials,Blue-Chip
+DELL,Dell Technologies,Information Technology,Blue-Chip
+DAL,Delta Air Lines,Industrials,Blue-Chip
+DVN,Devon Energy,Energy,Blue-Chip
+DXCM,Dexcom,Health Care,Blue-Chip
+FANG,Diamondback Energy,Energy,Blue-Chip
+DLR,Digital Realty,Real Estate,Blue-Chip
+DFS,Discover Financial,Financials,Blue-Chip
+DG,Dollar General,Consumer Staples,Blue-Chip
+DLTR,Dollar Tree,Consumer Staples,Blue-Chip
+D,Dominion Energy,Utilities,Blue-Chip
+DPZ,Domino's,Consumer Discretionary,Blue-Chip
+DOV,Dover Corporation,Industrials,Blue-Chip
+DOW,Dow Inc.,Materials,Blue-Chip
+DHI,D. R. Horton,Consumer Discretionary,Blue-Chip
+DTE,DTE Energy,Utilities,Blue-Chip
+DUK,Duke Energy,Utilities,Blue-Chip
+DD,DuPont,Materials,Blue-Chip
+EMN,Eastman Chemical Company,Materials,Blue-Chip
+ETN,Eaton Corporation,Industrials,Blue-Chip
+EBAY,eBay,Consumer Discretionary,Blue-Chip
+ECL,Ecolab,Materials,Blue-Chip
+EIX,Edison International,Utilities,Blue-Chip
+EW,Edwards Lifesciences,Health Care,Blue-Chip
+EA,Electronic Arts,Communication Services,Blue-Chip
+ELV,Elevance Health,Health Care,Blue-Chip
+EMR,Emerson Electric,Industrials,Blue-Chip
+ENPH,Enphase Energy,Information Technology,Blue-Chip
+ETR,Entergy,Utilities,Blue-Chip
+EOG,EOG Resources,Energy,Blue-Chip
+EPAM,EPAM Systems,Information Technology,Blue-Chip
+EQT,EQT Corporation,Energy,Blue-Chip
+EFX,Equifax,Industrials,Blue-Chip
+EQIX,Equinix,Real Estate,Blue-Chip
+EQR,Equity Residential,Real Estate,Blue-Chip
+ERIE,Erie Indemnity,Financials,Blue-Chip
+ESS,Essex Property Trust,Real Estate,Blue-Chip
+EL,Estée Lauder Companies (The),Consumer Staples,Blue-Chip
+EG,Everest Group,Financials,Blue-Chip
+EVRG,Evergy,Utilities,Blue-Chip
+ES,Eversource Energy,Utilities,Blue-Chip
+EXC,Exelon,Utilities,Blue-Chip
+EXPE,Expedia Group,Consumer Discretionary,Blue-Chip
+EXPD,Expeditors International,Industrials,Blue-Chip
+EXR,Extra Space Storage,Real Estate,Blue-Chip
+XOM,ExxonMobil,Energy,Blue-Chip
+FFIV,"F5, Inc.",Information Technology,Blue-Chip
+FDS,FactSet,Financials,Blue-Chip
+FICO,Fair Isaac,Information Technology,Blue-Chip
+FAST,Fastenal,Industrials,Blue-Chip
+FRT,Federal Realty Investment Trust,Real Estate,Blue-Chip
+FDX,FedEx,Industrials,Blue-Chip
+FIS,Fidelity National Information Services,Financials,Blue-Chip
+FITB,Fifth Third Bancorp,Financials,Blue-Chip
+FSLR,First Solar,Information Technology,Blue-Chip
+FE,FirstEnergy,Utilities,Blue-Chip
+FI,Fiserv,Financials,Blue-Chip
+FMC,FMC Corporation,Materials,Blue-Chip
+F,Ford Motor Company,Consumer Discretionary,Blue-Chip
+FTNT,Fortinet,Information Technology,Blue-Chip
+FTV,Fortive,Industrials,Blue-Chip
+FOXA,Fox Corporation (Class A),Communication Services,Blue-Chip
+FOX,Fox Corporation (Class B),Communication Services,Blue-Chip
+BEN,Franklin Resources,Financials,Blue-Chip
+FCX,Freeport-McMoRan,Materials,Blue-Chip
+GRMN,Garmin,Consumer Discretionary,Blue-Chip
+IT,Gartner,Information Technology,Blue-Chip
+GE,GE Aerospace,Industrials,Blue-Chip
+GEHC,GE HealthCare,Health Care,Blue-Chip
+GEV,GE Vernova,Industrials,Blue-Chip
+GEN,Gen Digital,Information Technology,Blue-Chip
+GNRC,Generac,Industrials,Blue-Chip
+GD,General Dynamics,Industrials,Blue-Chip
+GIS,General Mills,Consumer Staples,Blue-Chip
+GM,General Motors,Consumer Discretionary,Blue-Chip
+GPC,Genuine Parts Company,Consumer Discretionary,Blue-Chip
+GILD,Gilead Sciences,Health Care,Blue-Chip
+GPN,Global Payments,Financials,Blue-Chip
+GL,Globe Life,Financials,Blue-Chip
+GDDY,GoDaddy,Information Technology,Blue-Chip
+GS,Goldman Sachs,Financials,Blue-Chip
+HAL,Halliburton,Energy,Blue-Chip
+HIG,Hartford (The),Financials,Blue-Chip
+HAS,Hasbro,Consumer Discretionary,Blue-Chip
+HCA,HCA Healthcare,Health Care,Blue-Chip
+DOC,Healthpeak Properties,Real Estate,Blue-Chip
+HSIC,Henry Schein,Health Care,Blue-Chip
+HSY,Hershey Company (The),Consumer Staples,Blue-Chip
+HES,Hess Corporation,Energy,Blue-Chip
+HPE,Hewlett Packard Enterprise,Information Technology,Blue-Chip
+HLT,Hilton Worldwide,Consumer Discretionary,Blue-Chip
+HOLX,Hologic,Health Care,Blue-Chip
+HD,Home Depot (The),Consumer Discretionary,Blue-Chip
+HON,Honeywell,Industrials,Blue-Chip
+HRL,Hormel Foods,Consumer Staples,Blue-Chip
+HST,Host Hotels & Resorts,Real Estate,Blue-Chip
+HWM,Howmet Aerospace,Industrials,Blue-Chip
+HPQ,HP Inc.,Information Technology,Blue-Chip
+HUBB,Hubbell Incorporated,Industrials,Blue-Chip
+HUM,Humana,Health Care,Blue-Chip
+HBAN,Huntington Bancshares,Financials,Blue-Chip
+HII,Huntington Ingalls Industries,Industrials,Blue-Chip
+IBM,IBM,Information Technology,Blue-Chip
+IEX,IDEX Corporation,Industrials,Blue-Chip
+IDXX,Idexx Laboratories,Health Care,Blue-Chip
+ITW,Illinois Tool Works,Industrials,Blue-Chip
+INCY,Incyte,Health Care,Blue-Chip
+IR,Ingersoll Rand,Industrials,Blue-Chip
+PODD,Insulet Corporation,Health Care,Blue-Chip
+INTC,Intel,Information Technology,Blue-Chip
+ICE,Intercontinental Exchange,Financials,Blue-Chip
+IFF,International Flavors & Fragrances,Materials,Blue-Chip
+IP,International Paper,Materials,Blue-Chip
+IPG,Interpublic Group of Companies (The),Communication Services,Blue-Chip
+INTU,Intuit,Information Technology,Blue-Chip
+ISRG,Intuitive Surgical,Health Care,Blue-Chip
+IVZ,Invesco,Financials,Blue-Chip
+INVH,Invitation Homes,Real Estate,Blue-Chip
+IQV,IQVIA,Health Care,Blue-Chip
+IRM,Iron Mountain,Real Estate,Blue-Chip
+JBHT,J.B. Hunt,Industrials,Blue-Chip
+JBL,Jabil,Information Technology,Blue-Chip
+JKHY,Jack Henry & Associates,Financials,Blue-Chip
+J,Jacobs Solutions,Industrials,Blue-Chip
+JNJ,Johnson & Johnson,Health Care,Blue-Chip
+JCI,Johnson Controls,Industrials,Blue-Chip
+JPM,JPMorgan Chase,Financials,Blue-Chip
+JNPR,Juniper Networks,Information Technology,Blue-Chip
+K,Kellanova,Consumer Staples,Blue-Chip
+KVUE,Kenvue,Consumer Staples,Blue-Chip
+KDP,Keurig Dr Pepper,Consumer Staples,Blue-Chip
+KEY,KeyCorp,Financials,Blue-Chip
+KEYS,Keysight Technologies,Information Technology,Blue-Chip
+KMB,Kimberly-Clark,Consumer Staples,Blue-Chip
+KIM,Kimco Realty,Real Estate,Blue-Chip
+KMI,Kinder Morgan,Energy,Blue-Chip
+KKR,KKR,Financials,Blue-Chip
+KLAC,KLA Corporation,Information Technology,Blue-Chip
+KHC,Kraft Heinz,Consumer Staples,Blue-Chip
+KR,Kroger,Consumer Staples,Blue-Chip
+LHX,L3Harris,Industrials,Blue-Chip
+LH,LabCorp,Health Care,Blue-Chip
+LRCX,Lam Research,Information Technology,Blue-Chip
+LW,Lamb Weston,Consumer Staples,Blue-Chip
+LVS,Las Vegas Sands,Consumer Discretionary,Blue-Chip
+LDOS,Leidos,Industrials,Blue-Chip
+LEN,Lennar,Consumer Discretionary,Blue-Chip
+LII,Lennox International,Industrials,Blue-Chip
+LLY,Lilly (Eli),Health Care,Blue-Chip
+LIN,Linde plc,Materials,Blue-Chip
+LYV,Live Nation Entertainment,Communication Services,Blue-Chip
+LKQ,LKQ Corporation,Consumer Discretionary,Blue-Chip
+LMT,Lockheed Martin,Industrials,Blue-Chip
+L,Loews Corporation,Financials,Blue-Chip
+LOW,Lowe's,Consumer Discretionary,Blue-Chip
+LULU,Lululemon Athletica,Consumer Discretionary,Blue-Chip
+LYB,LyondellBasell,Materials,Blue-Chip
+MTB,M&T Bank,Financials,Blue-Chip
+MPC,Marathon Petroleum,Energy,Blue-Chip
+MKTX,MarketAxess,Financials,Blue-Chip
+MAR,Marriott International,Consumer Discretionary,Blue-Chip
+MMC,Marsh McLennan,Financials,Blue-Chip
+MLM,Martin Marietta Materials,Materials,Blue-Chip
+MAS,Masco,Industrials,Blue-Chip
+MA,Mastercard,Financials,Blue-Chip
+MTCH,Match Group,Communication Services,Blue-Chip
+MKC,McCormick & Company,Consumer Staples,Blue-Chip
+MCD,McDonald's,Consumer Discretionary,Blue-Chip
+MCK,McKesson Corporation,Health Care,Blue-Chip
+MDT,Medtronic,Health Care,Blue-Chip
+MRK,Merck & Co.,Health Care,Blue-Chip
+META,Meta Platforms,Communication Services,Blue-Chip
+MET,MetLife,Financials,Blue-Chip
+MTD,Mettler Toledo,Health Care,Blue-Chip
+MGM,MGM Resorts,Consumer Discretionary,Blue-Chip
+MCHP,Microchip Technology,Information Technology,Blue-Chip
+MU,Micron Technology,Information Technology,Blue-Chip
+MSFT,Microsoft,Information Technology,Blue-Chip
+MAA,Mid-America Apartment Communities,Real Estate,Blue-Chip
+MRNA,Moderna,Health Care,Blue-Chip
+MHK,Mohawk Industries,Consumer Discretionary,Blue-Chip
+MOH,Molina Healthcare,Health Care,Blue-Chip
+TAP,Molson Coors Beverage Company,Consumer Staples,Blue-Chip
+MDLZ,Mondelez International,Consumer Staples,Blue-Chip
+MPWR,Monolithic Power Systems,Information Technology,Blue-Chip
+MNST,Monster Beverage,Consumer Staples,Blue-Chip
+MCO,Moody's Corporation,Financials,Blue-Chip
+MS,Morgan Stanley,Financials,Blue-Chip
+MOS,Mosaic Company (The),Materials,Blue-Chip
+MSI,Motorola Solutions,Information Technology,Blue-Chip
+MSCI,MSCI,Financials,Blue-Chip
+NDAQ,"Nasdaq, Inc.",Financials,Blue-Chip
+NTAP,NetApp,Information Technology,Blue-Chip
+NFLX,Netflix,Communication Services,Blue-Chip
+NEM,Newmont,Materials,Blue-Chip
+NWSA,News Corp (Class A),Communication Services,Blue-Chip
+NWS,News Corp (Class B),Communication Services,Blue-Chip
+NEE,NextEra Energy,Utilities,Blue-Chip
+NKE,"Nike, Inc.",Consumer Discretionary,Blue-Chip
+NI,NiSource,Utilities,Blue-Chip
+NDSN,Nordson Corporation,Industrials,Blue-Chip
+NSC,Norfolk Southern Railway,Industrials,Blue-Chip
+NTRS,Northern Trust,Financials,Blue-Chip
+NOC,Northrop Grumman,Industrials,Blue-Chip
+NCLH,Norwegian Cruise Line Holdings,Consumer Discretionary,Blue-Chip
+NRG,NRG Energy,Utilities,Blue-Chip
+NUE,Nucor,Materials,Blue-Chip
+NVDA,Nvidia,Information Technology,Blue-Chip
+NVR,"NVR, Inc.",Consumer Discretionary,Blue-Chip
+NXPI,NXP Semiconductors,Information Technology,Blue-Chip
+ORLY,O'Reilly Auto Parts,Consumer Discretionary,Blue-Chip
+OXY,Occidental Petroleum,Energy,Blue-Chip
+ODFL,Old Dominion,Industrials,Blue-Chip
+OMC,Omnicom Group,Communication Services,Blue-Chip
+ON,ON Semiconductor,Information Technology,Blue-Chip
+OKE,ONEOK,Energy,Blue-Chip
+ORCL,Oracle Corporation,Information Technology,Blue-Chip
+OTIS,Otis Worldwide,Industrials,Blue-Chip
+PCAR,Paccar,Industrials,Blue-Chip
+PKG,Packaging Corporation of America,Materials,Blue-Chip
+PLTR,Palantir Technologies,Information Technology,Blue-Chip
+PANW,Palo Alto Networks,Information Technology,Blue-Chip
+PARA,Paramount Global,Communication Services,Blue-Chip
+PH,Parker Hannifin,Industrials,Blue-Chip
+PAYX,Paychex,Industrials,Blue-Chip
+PAYC,Paycom,Industrials,Blue-Chip
+PYPL,PayPal,Financials,Blue-Chip
+PNR,Pentair,Industrials,Blue-Chip
+PEP,PepsiCo,Consumer Staples,Blue-Chip
+PFE,Pfizer,Health Care,Blue-Chip
+PCG,PG&E Corporation,Utilities,Blue-Chip
+PM,Philip Morris International,Consumer Staples,Blue-Chip
+PSX,Phillips 66,Energy,Blue-Chip
+PNW,Pinnacle West,Utilities,Blue-Chip
+PNC,PNC Financial Services,Financials,Blue-Chip
+POOL,Pool Corporation,Consumer Discretionary,Blue-Chip
+PPG,PPG Industries,Materials,Blue-Chip
+PPL,PPL Corporation,Utilities,Blue-Chip
+PFG,Principal Financial Group,Financials,Blue-Chip
+PG,Procter & Gamble,Consumer Staples,Blue-Chip
+PGR,Progressive Corporation,Financials,Blue-Chip
+PLD,Prologis,Real Estate,Blue-Chip
+PRU,Prudential Financial,Financials,Blue-Chip
+PEG,Public Service Enterprise Group,Utilities,Blue-Chip
+PTC,PTC Inc.,Information Technology,Blue-Chip
+PSA,Public Storage,Real Estate,Blue-Chip
+PHM,PulteGroup,Consumer Discretionary,Blue-Chip
+PWR,Quanta Services,Industrials,Blue-Chip
+QCOM,Qualcomm,Information Technology,Blue-Chip
+DGX,Quest Diagnostics,Health Care,Blue-Chip
+RL,Ralph Lauren Corporation,Consumer Discretionary,Blue-Chip
+RJF,Raymond James Financial,Financials,Blue-Chip
+RTX,RTX Corporation,Industrials,Blue-Chip
+O,Realty Income,Real Estate,Blue-Chip
+REG,Regency Centers,Real Estate,Blue-Chip
+REGN,Regeneron Pharmaceuticals,Health Care,Blue-Chip
+RF,Regions Financial Corporation,Financials,Blue-Chip
+RSG,Republic Services,Industrials,Blue-Chip
+RMD,ResMed,Health Care,Blue-Chip
+RVTY,Revvity,Health Care,Blue-Chip
+ROK,Rockwell Automation,Industrials,Blue-Chip
+ROL,"Rollins, Inc.",Industrials,Blue-Chip
+ROP,Roper Technologies,Information Technology,Blue-Chip
+ROST,Ross Stores,Consumer Discretionary,Blue-Chip
+RCL,Royal Caribbean Group,Consumer Discretionary,Blue-Chip
+SPGI,S&P Global,Financials,Blue-Chip
+CRM,Salesforce,Information Technology,Blue-Chip
+SBAC,SBA Communications,Real Estate,Blue-Chip
+SLB,Schlumberger,Energy,Blue-Chip
+STX,Seagate Technology,Information Technology,Blue-Chip
+SRE,Sempra,Utilities,Blue-Chip
+NOW,ServiceNow,Information Technology,Blue-Chip
+SHW,Sherwin-Williams,Materials,Blue-Chip
+SPG,Simon Property Group,Real Estate,Blue-Chip
+SWKS,Skyworks Solutions,Information Technology,Blue-Chip
+SJM,J.M. Smucker Company (The),Consumer Staples,Blue-Chip
+SW,Smurfit WestRock,Materials,Blue-Chip
+SNA,Snap-on,Industrials,Blue-Chip
+SOLV,Solventum,Health Care,Blue-Chip
+SO,Southern Company,Utilities,Blue-Chip
+LUV,Southwest Airlines,Industrials,Blue-Chip
+SWK,Stanley Black & Decker,Industrials,Blue-Chip
+SBUX,Starbucks,Consumer Discretionary,Blue-Chip
+STT,State Street Corporation,Financials,Blue-Chip
+STLD,Steel Dynamics,Materials,Blue-Chip
+STE,Steris,Health Care,Blue-Chip
+SYK,Stryker Corporation,Health Care,Blue-Chip
+SMCI,Supermicro,Information Technology,Blue-Chip
+SYF,Synchrony Financial,Financials,Blue-Chip
+SNPS,Synopsys,Information Technology,Blue-Chip
+SYY,Sysco,Consumer Staples,Blue-Chip
+TMUS,T-Mobile US,Communication Services,Blue-Chip
+TROW,T. Rowe Price,Financials,Blue-Chip
+TTWO,Take-Two Interactive,Communication Services,Blue-Chip
+TPR,"Tapestry, Inc.",Consumer Discretionary,Blue-Chip
+TRGP,Targa Resources,Energy,Blue-Chip
+TGT,Target Corporation,Consumer Staples,Blue-Chip
+TEL,TE Connectivity,Information Technology,Blue-Chip
+TDY,Teledyne Technologies,Information Technology,Blue-Chip
+TFX,Teleflex,Health Care,Blue-Chip
+TER,Teradyne,Information Technology,Blue-Chip
+TSLA,"Tesla, Inc.",Consumer Discretionary,Blue-Chip
+TXN,Texas Instruments,Information Technology,Blue-Chip
+TPL,Texas Pacific Land Corporation,Energy,Blue-Chip
+TXT,Textron,Industrials,Blue-Chip
+TMO,Thermo Fisher Scientific,Health Care,Blue-Chip
+TJX,TJX Companies,Consumer Discretionary,Blue-Chip
+TSCO,Tractor Supply,Consumer Discretionary,Blue-Chip
+TT,Trane Technologies,Industrials,Blue-Chip
+TDG,TransDigm Group,Industrials,Blue-Chip
+TRV,Travelers Companies (The),Financials,Blue-Chip
+TRMB,Trimble Inc.,Information Technology,Blue-Chip
+TFC,Truist Financial,Financials,Blue-Chip
+TYL,Tyler Technologies,Information Technology,Blue-Chip
+TSN,Tyson Foods,Consumer Staples,Blue-Chip
+USB,U.S. Bancorp,Financials,Blue-Chip
+UBER,Uber,Industrials,Blue-Chip
+UDR,"UDR, Inc.",Real Estate,Blue-Chip
+ULTA,Ulta Beauty,Consumer Discretionary,Blue-Chip
+UNP,Union Pacific Corporation,Industrials,Blue-Chip
+UAL,United Airlines Holdings,Industrials,Blue-Chip
+UPS,United Parcel Service,Industrials,Blue-Chip
+URI,United Rentals,Industrials,Blue-Chip
+UNH,UnitedHealth Group,Health Care,Blue-Chip
+UHS,Universal Health Services,Health Care,Blue-Chip
+VLO,Valero Energy,Energy,Blue-Chip
+VTR,Ventas,Real Estate,Blue-Chip
+VLTO,Veralto,Industrials,Blue-Chip
+VRSN,Verisign,Information Technology,Blue-Chip
+VRSK,Verisk Analytics,Industrials,Blue-Chip
+VZ,Verizon,Communication Services,Blue-Chip
+VRTX,Vertex Pharmaceuticals,Health Care,Blue-Chip
+VTRS,Viatris,Health Care,Blue-Chip
+VICI,Vici Properties,Real Estate,Blue-Chip
+V,Visa Inc.,Financials,Blue-Chip
+VST,Vistra Corp.,Utilities,Blue-Chip
+VMC,Vulcan Materials Company,Materials,Blue-Chip
+WRB,W. R. Berkley Corporation,Financials,Blue-Chip
+GWW,W. W. Grainger,Industrials,Blue-Chip
+WAB,Wabtec,Industrials,Blue-Chip
+WBA,Walgreens Boots Alliance,Consumer Staples,Blue-Chip
+WMT,Walmart,Consumer Staples,Blue-Chip
+DIS,Walt Disney Company (The),Communication Services,Blue-Chip
+WBD,Warner Bros. Discovery,Communication Services,Blue-Chip
+WM,Waste Management,Industrials,Blue-Chip
+WAT,Waters Corporation,Health Care,Blue-Chip
+WEC,WEC Energy Group,Utilities,Blue-Chip
+WFC,Wells Fargo,Financials,Blue-Chip
+WELL,Welltower,Real Estate,Blue-Chip
+WST,West Pharmaceutical Services,Health Care,Blue-Chip
+WDC,Western Digital,Information Technology,Blue-Chip
+WY,Weyerhaeuser,Real Estate,Blue-Chip
+WMB,Williams Companies,Energy,Blue-Chip
+WTW,Willis Towers Watson,Financials,Blue-Chip
+WDAY,"Workday, Inc.",Information Technology,Blue-Chip
+WYNN,Wynn Resorts,Consumer Discretionary,Blue-Chip
+XEL,Xcel Energy,Utilities,Blue-Chip
+XYL,Xylem Inc.,Industrials,Blue-Chip
+YUM,Yum! Brands,Consumer Discretionary,Blue-Chip
