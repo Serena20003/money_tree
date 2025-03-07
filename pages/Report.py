@@ -34,8 +34,8 @@ if ('persistData' not in st.session_state or not st.session_state.persistData): 
 
 def ShowPred(rank):
     st.subheader("Future Predictions")
-    x_labels = [3*(i+1) for i in range(len(st.session_state.predictions[0]))]
-    data = pd.DataFrame({'Months':x_labels, 'Predicted Price ($)':st.session_state.predictions[0]})
+    x_labels = [3*(i+1) for i in range(len(st.session_state.predictions[rank]))]
+    data = pd.DataFrame({'Months':x_labels, 'Predicted Price ($)':st.session_state.predictions[rank]})
     st.line_chart(data, x='Months', y='Predicted Price ($)', x_label="Months", y_label="Predicted Price ($)", color="#34C172")
     st.table(data)
 
