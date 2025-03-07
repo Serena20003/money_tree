@@ -102,6 +102,7 @@ def Signup():
         submitted = st.form_submit_button("Submit")
         if submitted:
             # data validation
+            st.session_state.persistData = False
             st.session_state.signup_input_error = [0,0,0,0,0,0,0,0,0]
             # st.session_state.user_input = [income_val, savings_val, ratio_val, st.session_state.investment_duration_category, investment_duration_val, monthly_investment_commitment_val, tre_val, risk_appetite_val, max_drawdown_comfort_level_val, skill_val]
             validation = DataValidation()

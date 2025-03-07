@@ -10,13 +10,11 @@ import streamlit as st
 # st.session_state.reportReady = False
 
 st.session_state.stocks = []
-# test
-st.session_state.predictions = []
 
 from Start import Setup, DataValidation
 from algorithm import match_investors
 from database import User, Investment, get_investments_from_csv
-# from trainedml_crypto import crypto_model
+from trainedml_crypto import crypto_model
 from trainedml_etf import etf_model
 from trainedml_stocks import stock_model
 
@@ -30,158 +28,29 @@ from sklearn.preprocessing import MinMaxScaler
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 
-
-def crypto_model(crypto_ticker):
-    df_macro = pd.read_csv("macro_data.csv", index_col="Date", parse_dates=True)
-
-    df_crypto_technicals = pd.read_csv("crypto_technical_indicators.csv", index_col="Date", parse_dates=True)
-    df_crypto_sentiment = pd.read_csv("sentiment_crypto.csv", index_col="Date", parse_dates=True)
-    df_crypto_fundamentals = pd.read_csv("all_crypto_quarterly.csv", index_col="Quarter End Date", parse_dates=True)
-
-    df_crypto_fundamentals.reset_index(inplace=True)  # Reset index to access "Quarter End Date"
-    df_crypto_fundamentals.rename(columns={"Quarter End Date": "Date"}, inplace=True)
-    df_crypto_fundamentals["Date"] = pd.to_datetime(df_crypto_fundamentals["Date"]).dt.strftime("%Y-%m-%d")
-
-    df_crypto_technicals.reset_index(inplace=True)  # Reset index to access "Date"
-    df_crypto_technicals["Date"] = pd.to_datetime(df_crypto_technicals["Date"])
-
-    if 'Date' in df_crypto_technicals.columns:
-        df_crypto_technicals.set_index('Date', inplace=True)  # Set 'Date' as index
-    else:
-        raise KeyError("The DataFrame does not have a 'Date' column")
-
-    df_crypto_technicals = df_crypto_technicals.apply(pd.to_numeric, errors='coerce')
-
-    df_crypto_technicals = df_crypto_technicals.ffill()  # Forward-fill missing values
-
-    df_crypto_quarterly = df_crypto_technicals.resample("Q").mean().reset_index()
-
-    df_crypto_quarterly["Date"] = df_crypto_quarterly["Date"] + pd.offsets.QuarterEnd(0)
-
-    df_crypto_quarterly["Date"] = df_crypto_quarterly["Date"].dt.strftime("%Y-%m-%d")
-    df_crypto_fundamentals["Date"] = pd.to_datetime(df_crypto_fundamentals["Date"]).dt.strftime("%Y-%m-%d")
-
-    df_crypto = df_crypto_fundamentals.merge(df_crypto_quarterly, on="Date", how="inner")
-
-    df_macro.reset_index(inplace=True)
-    df_macro["Date"] = pd.to_datetime(df_macro["Date"])  # Convert to datetime
-
-    # ✅ Now subtract 1 day safely
-    df_macro["Date"] = df_macro["Date"] - timedelta(days=1)
-
-    # ✅ Convert back to string format if needed
-    df_macro["Date"] = df_macro["Date"].dt.strftime("%Y-%m-%d")
-
-    df_crypto = df_crypto.merge(df_macro, on="Date", how="inner")  # Use "left" to keep all crypto records
-
-
-    df_crypto = df_crypto.sort_values(by="Date")
-    missing_values = df_crypto.isnull().sum()
-
-    # Filter and print only columns that have NaN values
-    columns_with_nan = missing_values[missing_values > 0]
-    df_crypto.drop(columns="Crypto_y", inplace=True)
-    #print(df_crypto)
-
-    crypto_name = crypto_ticker  
-    crypto_specific_df = df_crypto[df_crypto["Crypto_x"] == crypto_name].copy()
-
-    crypto_specific_df = crypto_specific_df.drop(columns=["Crypto_x"])  # No need for categorical data
-
-    # ✅ Step 3: Create the Target Variable (Shift Open Price)
-    crypto_specific_df["Future_Open"] = crypto_specific_df["Open"].shift(-1)
-
-
-
-
-    # ✅ Step 4: Remove Rows with Missing Values (Caused by Shift)
-    crypto_specific_df = crypto_specific_df.dropna()
-
-
-    print(f"Shape of crypto_specific_df: {crypto_specific_df.shape}")
-    print(crypto_specific_df.head())
-
-    # ✅ Step 5: Scale Features (Normalize All Columns Except Date & Target Variable)
-    scaler = MinMaxScaler()
-    scaled_features = scaler.fit_transform(crypto_specific_df.drop(columns=["Date", "Open", "Future_Open"]))
-
-    # ✅ Step 6: Scale Target Variable (Future Open Price)
-    target_scaler = MinMaxScaler(feature_range=(0, 1))  # Ensure full range
-    scaled_target = target_scaler.fit_transform(crypto_specific_df["Future_Open"].values.reshape(-1, 1))
-
-
-    # # ✅ Use StandardScaler instead of MinMaxScaler
-    # scaler = StandardScaler()
-    # scaled_features = scaler.fit_transform(crypto_specific_df.drop(columns=["Date", "Open", "Future_Open"]))
-
-    # target_scaler = StandardScaler()  # Scale the target variable
-    # scaled_target = target_scaler.fit_transform(crypto_specific_df["Future_Open"].values.reshape(-1, 1))
-
-
-    # ✅ Step 7: Define Features (X) & Target (y)
-    X, y = scaled_features, scaled_target
-
-    # ✅ Step 8: Reshape X for LSTM (samples, time steps, features)
-    X = np.reshape(X, (X.shape[0], 1, X.shape[1]))  # LSTM expects 3D input
-
-    # ✅ Step 9: Split Data into Train & Test Sets (80% Training, 20% Testing)
-    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, shuffle=False)
-
-    # Build the LSTM model
-    model = Sequential([
-        LSTM(60, return_sequences=True, input_shape=(X_train.shape[1], X_train.shape[2])),
-        Dropout(0.2),  # Reduce dropout to allow better learning
-        LSTM(60, return_sequences=False),
-        Dropout(0.2),
-        Dense(30, activation="relu"),
-        Dense(1)
-    ])
-
-    # Compile the model
-    model.compile(optimizer="adam", loss="mean_squared_error")
-
-    # Train the model
-    history = model.fit(X_train, y_train, epochs=50, batch_size=16, validation_data=(X_test, y_test), verbose=1)
-
-    # Predict future open price using the latest available data
-    latest_data = X[-1].reshape(1, 1, X.shape[2])
-    predicted_open_scaled = model.predict(latest_data)
-    predicted_open = target_scaler.inverse_transform(predicted_open_scaled.reshape(-1, 1))[0][0]
-
-
-
-
-    # ✅ Start with the latest available data
-    future_predictions = []
-
-
-    # ✅ Predict Open Price for 2 Quarters (6 months)
-    for i in range(7):  # 2 quarters ahead
-        # Predict the next Open price
-        predicted_open_scaled = model.predict(latest_data)
-
-        # Convert back to actual price
-        predicted_open = target_scaler.inverse_transform(predicted_open_scaled.reshape(-1, 1))[0][0]
-        future_predictions.append(predicted_open)
-
-        # Prepare the predicted Open price as input for the next prediction
-        latest_data = np.append(latest_data[:, :, 1:], predicted_open_scaled.reshape(1, 1, 1), axis=2)
-
-    return future_predictions
-
-    # ✅ Print Predicted Open Prices for Next 2 Quarters
-    # for i, price in enumerate(future_predictions):
-    #     print(f"Predicted Open Price for {3*(i+1)} months ahead: ${price:.2f}")
-
-
-
 Setup()
-st.session_state.predictions = [[],[],[]]
+if ('persistData' not in st.session_state or not st.session_state.persistData): # need to recalculate
+    st.session_state.predictions = [[],[],[]]
 
 def ShowPred(rank):
-    st.subheader("Predictions")
-    for i in range(len(st.session_state.predictions[rank])):
-        st.write(str((i+1)*3) + " months: " + str(st.session_state.predictions[rank][i]))
+    st.subheader("Future Predictions")
+    x_labels = [3*(i+1) for i in range(len(st.session_state.predictions[0]))]
+    data = pd.DataFrame({'Months':x_labels, 'Predicted Price ($)':st.session_state.predictions[0]})
+    st.line_chart(data, x='Months', y='Predicted Price ($)', x_label="Months", y_label="Predicted Price ($)", color="#34C172")
+    st.table(data)
+
+def ShowFurtherInfo(rank):
+    # st.write(st.session_state.stocks[rank][1])
+    st.subheader("Investment Info")
+    asset = st.session_state.stocks[rank][1].asset_type
+    drawdown = st.session_state.stocks[rank][1].drawdown
+    volatility = st.session_state.stocks[rank][1].volatility
+    min_inv = st.session_state.stocks[rank][1].min_investment
+    duration = st.session_state.stocks[rank][1].duration
+    st.write(f"This is a `{asset}` type asset.")
+    st.write(f"The drawdown is `{drawdown}`% and the volatility is `{volatility}`.")
+    st.write(f"The minimum investment for this asset is `{min_inv}` and the duration is `{duration}`.")
+    st.write(f"This is your **#{rank+1}** ranked asset!")
 
 def GetStocks():
     # get from function
@@ -201,10 +70,12 @@ def SetStockPrediction(rank, ticker, type):
 def ShowStock(rank):
     # make cute display of cards
     # collapsable details to reduce reloading
-    st.header("Investment #" + str(rank+1) + ": " + st.session_state.stocks[rank][1].name)
+    st.header("Asset #" + str(rank+1) + ": " + st.session_state.stocks[rank][1].name)
+
     # if crypto, etf
     if st.session_state.stocks[rank][1].asset_type == "ETF" or st.session_state.stocks[rank][1].asset_type == "Crypto":
-        SetStockPrediction(rank, st.session_state.stocks[rank][1].ticker, st.session_state.stocks[rank][1].asset_type)
+        if (not st.session_state.persistData): # need to recalculate
+            SetStockPrediction(rank, st.session_state.stocks[rank][1].ticker, st.session_state.stocks[rank][1].asset_type)
         st.subheader("Predictions")
         col1, col2 = st.columns(2, border=True)
         # most recent prediction
@@ -223,25 +94,27 @@ def ShowStock(rank):
     # if stock, show description
     if st.session_state.stocks[rank][1].asset_type == "Stock":
         with st.expander("Stock Description"):
-            st.write(stock_model(st.session_state.stocks[rank][1].ticker))
+            if (not st.session_state.persistData): # need to recalculate
+                st.session_state.stockDesc = stock_model(st.session_state.stocks[rank][1].ticker)
+            st.write(st.session_state.stockDesc)
 
-    with st.expander("Further information"):
-        st.write(st.session_state.stocks[rank][1])
+    with st.expander("Additional Information"):
+        ShowFurtherInfo(rank)
         ShowPred(rank)
 
 def PrintUser():
     # income, savings, ratio, duration, commitment, target, appetite, max_drawdown, skill_level
     user = st.session_state.user_input
     with st.expander("Your information"):
-        st.write(f"Income: ${user[0]}")
-        st.write(f"Savings: ${user[1]}")
-        st.write(f"Debt to Income Ratio: ${user[2]}")
-        st.write(f"Desired Investment Duration: ${user[3]}")
-        st.write(f"Monthly Investment Commitment: ${user[4]}")
-        st.write(f"Target Return Expectation: ${user[5]}")
-        st.write(f"Risk Appetite: ${user[6]}")
-        st.write(f"Maximum Drawdown level: ${user[7]}")
-        st.write(f"Confidence Level in Investing: ${user[8]}")
+        st.write(f"Income: **${user[0]}**")
+        st.write(f"Savings: **${user[1]}**")
+        st.write(f"Debt to Income Ratio: **{user[2]}**")
+        st.write(f"Desired Investment Duration: **{user[3]}**")
+        st.write(f"Monthly Investment Commitment: **${user[4]}**")
+        st.write(f"Target Return Expectation: **{user[5]}%**")
+        st.write(f"Risk Appetite: **{user[6]}%**")
+        st.write(f"Maximum Drawdown level: **{user[7]}%**")
+        st.write(f"Confidence Level in Investing: **{user[8]}**")
 
 if 'user_input' not in st.session_state or DataValidation() != None:
     st.write("Please head back to Start page to let us know your investment preferences!")
@@ -258,6 +131,7 @@ else:
     ShowStock(0)
     ShowStock(1)
     ShowStock(2)
+    st.session_state.persistData = True
     
     
     # while st.session_state.isLoading:
