@@ -1,6 +1,6 @@
 # money_tree
 
-Project deployed on: [https://moneytree-athenahacks25.streamlit.app/](https://moneytree-ah25.streamlit.app/)
+Project deployed on: [https://moneytree-ah25.streamlit.app/](https://moneytree-ah25.streamlit.app/)
 
 # About
 
